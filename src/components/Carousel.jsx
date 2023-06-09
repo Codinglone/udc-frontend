@@ -3,114 +3,34 @@ import carousel1 from "../assets/carousel-1.jpeg"
 import carousel2 from "../assets/carousel-2.jpeg"
 import carousel3 from "../assets/carousel-3.jpg"
 import carousel4 from "../assets/carousel-4.jpg"
+import { CCarousel, CCarouselItem, CCarouselCaption, CImage } from "@coreui/react"
 
 const CarouselComponent = () => {
   return (
-    <Carousel  transition={{ duration: '2ms' }} className="h-[80vh]">
-      <div className="relative h-full w-full">
-        <img
-          src={carousel2}
-          alt="image 1"
-          className="h-full w-full object-cover"
-        />
-        <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/75">
-          <div className="w-3/4 text-center md:w-2/4">
-            <Typography
-              variant="h1"
-              color="white"
-              className="mb-4 text-3xl md:text-4xl lg:text-5xl"
-            >
-              Building Better Future
-            </Typography>
-            <Typography
-              variant="lead"
-              color="white"
-              className="mb-12 opacity-80"
-            >
-              Welcome to our Construction Company, where dreams become reality. Our skilled team delivers exceptional projects with excellence and innovation. Join us on a transformative journey to a better future through quality craftsmanship, collaboration, and unwavering commitment to safety
-            </Typography>
-            <div className="flex justify-center gap-2">
-              <Button size="lg" color="white">
-                LET'S WORK TOGETHER
-              </Button>
-
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="relative h-full w-full">
-        <img
-          src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
-          alt="image 2"
-          className="h-full w-full object-cover"
-        />
-        <div className="absolute inset-0 grid h-full w-full items-center bg-black/75">
-          <div className="w-3/4 pl-12 md:w-2/4 md:pl-20 lg:pl-32">
-            <Typography
-              variant="h1"
-              color="white"
-              className="mb-4 text-3xl md:text-4xl lg:text-5xl"
-            >
-              The Beauty of Nature
-            </Typography>
-            <Typography
-              variant="lead"
-              color="white"
-              className="mb-12 opacity-80"
-            >
-              It is not so much for its beauty that the forest makes a claim
-              upon men&apos;s hearts, as for that subtle something, that
-              quality of air that emanation from old trees, that so
-              wonderfully changes and renews a weary spirit.
-            </Typography>
-            <div className="flex gap-2">
-              <Button size="lg" color="white">
-                Explore
-              </Button>
-              <Button size="lg" color="white" variant="text">
-                Gallery
-              </Button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="relative h-full w-full">
-        <img
-          src="https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80"
-          alt="image 3"
-          className="h-full w-full object-cover"
-        />
-        <div className="absolute inset-0 grid h-full w-full items-end bg-black/75">
-          <div className="w-3/4 pl-12 pb-12 md:w-2/4 md:pl-20 md:pb-20 lg:pl-32 lg:pb-32">
-            <Typography
-              variant="h1"
-              color="white"
-              className="mb-4 text-3xl md:text-4xl lg:text-5xl"
-            >
-              The Beauty of Nature
-            </Typography>
-            <Typography
-              variant="lead"
-              color="white"
-              className="mb-12 opacity-80"
-            >
-              It is not so much for its beauty that the forest makes a claim
-              upon men&apos;s hearts, as for that subtle something, that
-              quality of air that emanation from old trees, that so
-              wonderfully changes and renews a weary spirit.
-            </Typography>
-            <div className="flex gap-2">
-              <Button size="lg" color="white">
-                Explore
-              </Button>
-              <Button size="lg" color="white" variant="text">
-                Gallery
-              </Button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </Carousel>
+    
+    <CCarousel controls indicators transition="crossfade" interval={1000}>
+  <CCarouselItem>
+    <CImage className="d-block w-100" src={carousel1} alt="slide 1" />
+    <CCarouselCaption className="d-none d-md-block">
+      <h5>First slide label</h5>
+      <p>Some representative placeholder content for the first slide.</p>
+    </CCarouselCaption>
+  </CCarouselItem>
+  <CCarouselItem>
+    <CImage className="d-block w-100" src={carousel2} alt="slide 2" />
+    <CCarouselCaption className="d-none d-md-block">
+      <h5>Second slide label</h5>
+      <p>Some representative placeholder content for the first slide.</p>
+    </CCarouselCaption>
+  </CCarouselItem>
+  <CCarouselItem>
+    <CImage className="d-block w-100" src={carousel3} alt="slide 3" />
+    <CCarouselCaption className="d-none d-md-block">
+      <h5>Third slide label</h5>
+      <p>Some representative placeholder content for the first slide.</p>
+    </CCarouselCaption>
+  </CCarouselItem>
+</CCarousel>
   )
 }
 
