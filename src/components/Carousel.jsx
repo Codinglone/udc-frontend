@@ -1,8 +1,6 @@
 import carousel1 from "../assets/carousel-1.jpeg";
 import carousel2 from "../assets/carousel-2.jpeg";
 import carousel3 from "../assets/carousel-3.jpg";
-import carousel4 from "../assets/carousel-4.jpg";
-import { Button } from "flowbite-react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
