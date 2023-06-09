@@ -1,11 +1,15 @@
 import { Carousel, Typography, Button } from "@material-tailwind/react";
+import carousel1 from "../assets/carousel-1.jpeg"
+import carousel2 from "../assets/carousel-2.jpeg"
+import carousel3 from "../assets/carousel-3.jpg"
+import carousel4 from "../assets/carousel-4.jpg"
 
 const CarouselComponent = () => {
   return (
-    <Carousel  transition={{ duration: '2ms' }}>
+    <Carousel  transition={{ duration: '2ms' }} className="h-[80vh]">
       <div className="relative h-full w-full">
         <img
-          src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2560&q=80"
+          src={carousel2}
           alt="image 1"
           className="h-full w-full object-cover"
         />
@@ -16,25 +20,20 @@ const CarouselComponent = () => {
               color="white"
               className="mb-4 text-3xl md:text-4xl lg:text-5xl"
             >
-              The Beauty of Nature
+              Building Better Future
             </Typography>
             <Typography
               variant="lead"
               color="white"
               className="mb-12 opacity-80"
             >
-              It is not so much for its beauty that the forest makes a claim
-              upon men&apos;s hearts, as for that subtle something, that
-              quality of air that emanation from old trees, that so
-              wonderfully changes and renews a weary spirit.
+              Welcome to our Construction Company, where dreams become reality. Our skilled team delivers exceptional projects with excellence and innovation. Join us on a transformative journey to a better future through quality craftsmanship, collaboration, and unwavering commitment to safety
             </Typography>
             <div className="flex justify-center gap-2">
               <Button size="lg" color="white">
-                Explore
+                LET'S WORK TOGETHER
               </Button>
-              <Button size="lg" color="white" variant="text">
-                Gallery
-              </Button>
+
             </div>
           </div>
         </div>
