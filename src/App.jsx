@@ -1,7 +1,7 @@
 import Navbar from "./components/Navbar"
 import Carousel from "./components/Carousel"
 import Description from "./components/Description"
-
+import Status from "./components/Status"
 function App() {
 
   return (
@@ -9,6 +9,7 @@ function App() {
     <Navbar />
     <Carousel />
      <Description />
+     <Status />
     </>
   )
 }
