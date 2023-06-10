@@ -27,7 +27,7 @@ const Navbar = () => {
             <div className="menus py-4 flex">
                 <a href="#" className="active px-2 font-semibold">HOME</a>
                 <a href="#" className=" px-2 font-semibold text-white hover:text-[gold]">PROJECTS</a>
-                <a href="#" className=" px-2 font-semibold text-white hover:text-[gold]">ABOUT US</a>
+                <a href="#about" className=" px-2 font-semibold text-white hover:text-[gold]">ABOUT US</a>
                 <a href="#" className=" px-2 font-semibold text-white hover:text-[gold]">SERVICES</a>
                 <a href="#" className=" px-2 font-semibold text-white hover:text-[gold]">OUR TEAM</a>
                 <a href="#" className=" px-2 font-semibold text-white hover:text-[gold]">CAREERS</a>

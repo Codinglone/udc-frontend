@@ -6,3 +6,6 @@
   color: gold;
 }
 
+* {
+  scroll-behavior: smooth;
+}

@@ -1,5 +1,6 @@
 import Navbar from "./components/Navbar"
 import Carousel from "./components/Carousel"
+import Description from "./components/Description"
 
 function App() {
 
@@ -7,7 +8,7 @@ function App() {
     <>
     <Navbar />
     <Carousel />
-     <h1>UDC Website</h1>
+     <Description />
     </>
   )
 }
