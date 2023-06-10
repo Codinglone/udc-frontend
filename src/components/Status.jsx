@@ -15,8 +15,19 @@ const Status = () => {
         </div>
       
       </div>
+      <div className="w-1/2 bg-yellow-300 flex justify-between px-4 py-8">
+        <div>
+        <CountUp className="text-blue-900 text-6xl font-bold" end={15} duration={5} /> <br />
+       <span className="font-semibold text-lg text-white">COMPLETED PROJECTS</span>
+        </div>
+        <div>
+        <CountUp className="text-blue-900 text-6xl font-bold" end={20} duration={5} /> <br />
+       <span className="font-semibold text-lg text-white">RUNNING PROJECTS</span>
+        </div>
+      
+      </div>
      
-      <div className="w-1/2 bg-yellow-300">
+      {/* <div className="w-1/2 bg-yellow-300">
         <div>
         <CountUp end={15} duration={5} />
         COMPLETED PROJECTS
@@ -25,7 +36,7 @@ const Status = () => {
         <CountUp end={20} duration={5} />
         RUNNING PROJECTS
         </div>
-      </div>
+      </div> */}
      
       
       </div>
