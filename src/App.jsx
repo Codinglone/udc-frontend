@@ -5,12 +5,12 @@ import Status from "./components/Status"
 function App() {
 
   return (
-    <>
+    <main className=" overflow-hidden">
     <Navbar />
     <Carousel />
      <Description />
      <Status />
-    </>
+    </main>
   )
 }
 

@@ -3,8 +3,8 @@ import CountUp from "react-countup";
 const Status = () => {
   return (
     <>
-    <div>
-      <div>
+    <div className="w-full flex">
+      <div className="w-1/2 bg-blue-900">
         <div>
         <CountUp end={20} duration={5} />
         EXPERT ENGINEERS & PROJECT MANAGERS
@@ -15,7 +15,7 @@ const Status = () => {
         </div>
       </div>
      
-      <div>
+      <div className="w-1/2 bg-[gold]">
         <div>
         <CountUp end={15} duration={5} />
         COMPLETED PROJECTS
