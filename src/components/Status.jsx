@@ -1,9 +1,12 @@
 import CountUp from "react-countup";
-
+import AOS from "aos";
+import 'aos/dist/aos.css';
+AOS.init();
 const Status = () => {
   return (
     <>
-    <div className="w-full flex">
+    <div className="w-full flex" data-aos="fade-up"
+     data-aos-duration="1500">
       <div className="w-1/2 bg-blue-900 flex justify-between px-4 py-8">
         <div>
         <CountUp className="text-white text-6xl font-bold" end={20} duration={5} /> <br />

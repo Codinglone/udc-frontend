@@ -1,8 +1,10 @@
 import carousel3 from "../assets/carousel-3.jpg";
-
+import AOS from "aos"
+import 'aos/dist/aos.css';
+AOS.init();
 const Description = () => {
   return (
-    <div className="my-24 mx-4 w-full flex ">
+    <div className="my-24 mx-4 w-full flex" data-aos="fade-up" data-aos-duration={1500}>
       <div className="w-1/2">
         <img src={carousel3} alt="Photo" />
       </div>
