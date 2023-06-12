@@ -3,6 +3,7 @@ import Carousel from "./components/Carousel"
 import Description from "./components/Description"
 import Status from "./components/Status"
 import Services from "./components/Services"
+import ServicesTab from "./components/ServicesTab"
 function App() {
 
   return (
@@ -12,6 +13,7 @@ function App() {
      <Description />
      <Status />
      <Services />
+     <ServicesTab />
     </main>
   )
 }
