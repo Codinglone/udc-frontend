@@ -1,4 +1,5 @@
 import carousel3 from "../assets/carousel-3.jpg";
+import SectionTitle from "./SectionTitle";
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();
@@ -13,14 +14,15 @@ const Description = () => {
         <img src={carousel3} alt="Photo" />
       </div>
       <div className="w-[44%] ml-8" id="about">
-        <div className="section-title">
+        {/* <div className="section-title">
           <h3 className="text-blue-900 font-bold text-xl mb-2">
             Welcome to UDC
           </h3>
           <h1 className="text-5xl font-bold text-blue-700">
             20 Years Of Experience
           </h1>
-        </div>
+        </div> */}
+        <SectionTitle />
         <p className="my-2 font-bold text-blue-900">
           At Universal Design and Construction Ltd, we specialize in creating
           innovative and transformative spaces that meet the unique needs of our
