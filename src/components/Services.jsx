@@ -1,9 +1,9 @@
 import React from 'react'
-
+import SectionTitle from './SectionTitle'
 const Services = () => {
   return (
-    <div>
-        <h1>Services Component</h1>
+    <div className='flex justify-center my-24'>
+        <SectionTitle title="Our Services" titleText="What do we do?" serviceCentered={true} />
     </div>
   )
 }
