@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+.font-mono {
+  font-family: monospace;
+}
 .active {
   color: gold;
 }
