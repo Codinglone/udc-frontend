@@ -77,16 +77,6 @@ const Status = () => {
           </div>
         </div>
 
-        {/* <div className="w-1/2 bg-yellow-300">
-        <div>
-        <CountUp end={15} duration={5} />
-        COMPLETED PROJECTS
-        </div>
-        <div>
-        <CountUp end={20} duration={5} />
-        RUNNING PROJECTS
-        </div>
-      </div> */}
       </div>
     </>
   );
