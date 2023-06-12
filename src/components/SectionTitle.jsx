@@ -1,13 +1,13 @@
 import React from 'react'
 
-const SectionTitle = () => {
+const SectionTitle = ({ title, titleText }) => {
   return (
     <div className="section-title">
           <h3 className="text-blue-900 font-bold text-xl mb-2">
-            Welcome to UDC
+            {title}
           </h3>
           <h1 className="text-5xl font-bold text-blue-700">
-            20 Years Of Experience
+            {titleText}
           </h1>
         </div>
   )
