@@ -13,40 +13,41 @@ function ServicesTab() {
         name: "Town and Spacial Planning",
         content: "Town and Spacial Planning tab content",
         icon: FaBuilding,
-        label: "user-circle",
+        label: "Building icon",
       },
       {
         value: "tab2",
         name: "Building",
         content: "Building tab content",
         icon: FaHome,
-        label: "bell",
+        label: "Home icon",
       },
       {
         value: "tab3",
         name: "Road Sector",
         content: "Road Sector Tab Content",
         icon: FaRoad,
-        label: "shield-check",
+        label: "Road icon",
       },
       {
         value: "tab4",
         name: "Electricity",
         content: "Electricity tab content",
         icon: BsFillLightningFill,
-        label: "shield-check",
+        label: "Lightning icon",
       },
     ];
   
     return (
+        <div className="flex justify-center w-full my-8">
         <VechaiProvider>
-      <div className="flex flex-wrap w-full p-8 space-x-4">
+      <div className="flex flex-wrap w-[50%] shadow-lg  justify-center w-full p-8 space-x-4">
         <Tabs.Root className="flex flex-col" defaultValue="tab1">
           <Tabs.List
             aria-label="tabs example"
             className={cx(
               "flex flex-row justify-start",
-              "border-b border-gray-200 dark:border-neutral-700"
+              "border-b border-blue-300 dark:border-neutral-700"
             )}
           >
             {tabs.map((tab) => (
@@ -56,9 +57,9 @@ function ServicesTab() {
                 className={cx(
                   "px-4 py-2 h-10 -mb-px text-sm text-center whitespace-nowrap cursor-base focus:outline-none",
                   "flex-shrink-0 inline-block",
-                  "text-neutral-600 bg-transparent border border-transparent",
-                  "hover:text-neutral-900",
-                  "selected:bg-base selected:text-neutral-900 selected:rounded-tl-md selected:rounded-tr-md",
+                  "text-blue-700 bg-transparent border border-transparent",
+                  "hover:text-blue-900",
+                  "selected:bg-base selected:text-blue-900 selected:rounded-tl-md selected:rounded-tr-md",
                   "selected:border-inherit selected:border-b-transparent",
                   // dark
                   "dark:text-neutral-400 dark:bg-transparent",
@@ -80,7 +81,7 @@ function ServicesTab() {
             <Tabs.Content
               key={tab.value}
               value={tab.value}
-              className="p-4 flex-grow-1"
+              className="p-4 flex-grow-1 text-blue-900 font-semibold"
             >
               {tab.content}
             </Tabs.Content>
@@ -88,6 +89,7 @@ function ServicesTab() {
         </Tabs.Root>
       </div>
       </VechaiProvider>
+      </div>
 
     );
   }
