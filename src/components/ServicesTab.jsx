@@ -4,7 +4,9 @@ import { VechaiProvider } from "@vechaiui/react";
 import { FaBuilding, FaHome, FaRoad } from "react-icons/fa"
 import { BsFillLightningFill } from "react-icons/bs"
 import { Icon, Badge } from "@vechaiui/react"
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 function ServicesTab() {
     const tabs = [
@@ -39,7 +41,8 @@ function ServicesTab() {
     ];
   
     return (
-        <div className="flex justify-center w-full my-8">
+        <div className="flex justify-center w-full my-8" data-aos="fade-up"
+        data-aos-duration={1500}>
         <VechaiProvider>
       <div className="flex flex-wrap w-[50%] justify-center w-full p-8 space-x-4">
         <Tabs.Root className="flex flex-col shadow-lg " defaultValue="tab1">
