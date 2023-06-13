@@ -5,6 +5,7 @@ import Status from "./components/Status"
 import Services from "./components/Services"
 import ServicesTab from "./components/ServicesTab"
 import Footer from "./components/Footer"
+import Portfolio from "./components/Portfolio"
 function App() {
 
   return (
@@ -16,6 +17,7 @@ function App() {
      <Status />
      <Services />
      <ServicesTab />
+     <Portfolio />
     </main>
     <Footer />
     </>
