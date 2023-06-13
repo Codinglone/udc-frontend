@@ -10,19 +10,42 @@ const Footer = () => {
           <div class="mb-6 md:mb-0">
               <a href="/" class="flex items-center">
                   <img src={Logo} class="h-8 mr-3" alt="FlowBite Logo" />
-                  <span class="self-center text-2xl font-semibold whitespace-nowrap text-blue-900 dark:text-white">UDC</span>
+                  <span class="self-center text-2xl font-semibold whitespace-nowrap text-blue-900 dark:text-white">UDC LTD</span>
               </a>
+              <ul class="text-gray-600 dark:text-gray-400 font-medium mt-2">
+                      <li class="mb-4">
+                          <a href="/" class="hover:underline">Phone: +250784427142</a>
+                      </li>
+                      <li className='mb-4'>
+                          <a href="/" class="hover:underline">E-mail: codinglone@gmail.com</a>
+                      </li>
+                      <li class="mb-4">
+                          <a href="/" class="hover:underline">Whatsapp: +250784427142</a>
+                      </li>
+                      <li className='mb-4'>
+                          <a href="/" class="hover:underline">Telegram: +250784427142</a>
+                      </li>
+                    
+                  </ul>
           </div>
           <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+            
               <div>
-                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
+                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Services Areas</h2>
                   <ul class="text-gray-600 dark:text-gray-400 font-medium">
                       <li class="mb-4">
                           <a href="/" class="hover:underline">Construction</a>
                       </li>
-                      <li>
-                          <a href="/" class="hover:underline">Building</a>
+                      <li className='mb-4'>
+                          <a href="/" class="hover:underline">Town & Spacial Planning</a>
                       </li>
+                      <li class="mb-4">
+                          <a href="/" class="hover:underline">Road Sector</a>
+                      </li>
+                      <li className='mb-4'>
+                          <a href="/" class="hover:underline">Electricity</a>
+                      </li>
+                    
                   </ul>
               </div>
               <div>
@@ -31,19 +54,31 @@ const Footer = () => {
                       <li class="mb-4">
                           <a href="https://twitter.com/" target='_blank' class="hover:underline ">Twitter</a>
                       </li>
+                      <li class="mb-4">
+                          <a href="https://facebook.com/" target='_blank' class="hover:underline ">Facebook</a>
+                      </li>
+                      <li class="mb-4">
+                          <a href="https://instagram.com/" target='_blank' class="hover:underline ">Instagram</a>
+                      </li>
                       <li>
                           <a href="https://discord.gg/" class="hover:underline">Discord</a>
                       </li>
                   </ul>
               </div>
               <div>
-                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
+                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Useful Links</h2>
                   <ul class="text-gray-600 dark:text-gray-400 font-medium">
                       <li class="mb-4">
-                          <a href="#" class="hover:underline">Privacy Policy</a>
+                          <a href="#" class="hover:underline">Home</a>
                       </li>
-                      <li>
-                          <a href="#" class="hover:underline">Terms &amp; Conditions</a>
+                      <li className='mb-4'>
+                          <a href="#about" class="hover:underline">About Us</a>
+                      </li>
+                      <li class="mb-4">
+                          <a href="#services" class="hover:underline">Services</a>
+                      </li>
+                      <li class="mb-4">
+                          <a href="#" class="hover:underline">Projects</a>
                       </li>
                   </ul>
               </div>
