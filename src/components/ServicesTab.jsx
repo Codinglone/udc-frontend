@@ -41,8 +41,8 @@ function ServicesTab() {
     return (
         <div className="flex justify-center w-full my-8">
         <VechaiProvider>
-      <div className="flex flex-wrap w-[50%] shadow-lg  justify-center w-full p-8 space-x-4">
-        <Tabs.Root className="flex flex-col" defaultValue="tab1">
+      <div className="flex flex-wrap w-[50%] justify-center w-full p-8 space-x-4">
+        <Tabs.Root className="flex flex-col shadow-lg " defaultValue="tab1">
           <Tabs.List
             aria-label="tabs example"
             className={cx(
