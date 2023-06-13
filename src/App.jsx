@@ -6,6 +6,7 @@ import Services from "./components/Services"
 import ServicesTab from "./components/ServicesTab"
 import Footer from "./components/Footer"
 import Portfolio from "./components/Portfolio"
+import Gallery from "./components/Gallery"
 function App() {
 
   return (
@@ -18,6 +19,7 @@ function App() {
      <Services />
      <ServicesTab />
      <Portfolio />
+     <Gallery />
     </main>
     <Footer />
     </>
