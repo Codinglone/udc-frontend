@@ -1,5 +1,7 @@
 import React from 'react';
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 const Partners = () => {
   const partners = [
     {
@@ -28,7 +30,8 @@ const Partners = () => {
   };
 
   return (
-    <div className="shadow-lg p-8 mx-[10%] my-4">
+    <div className="shadow-lg p-8 mx-[10%] my-4" data-aos="fade-up"
+    data-aos-duration={1500}>
       <h2 className="text-2xl font-bold mb-4 text-blue-700">Our Partners</h2>
       <p className="text-base mb-4 text-blue-900">
         We work with the best partners in the industry to deliver exceptional results.
