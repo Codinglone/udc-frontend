@@ -8,6 +8,7 @@ import Footer from "./components/Footer"
 import Portfolio from "./components/Portfolio"
 import Gallery from "./components/Gallery"
 import Partners from "./components/Partners"
+import PartnersTitle from "./components/PartnersTitle"
 function App() {
 
   return (
@@ -21,6 +22,7 @@ function App() {
      <ServicesTab />
      <Portfolio />
      <Gallery />
+     <PartnersTitle />
      <Partners />
     </main>
     <Footer />
