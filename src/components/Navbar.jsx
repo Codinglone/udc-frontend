@@ -28,7 +28,7 @@ const Navbar = () => {
                 <a href="#" className="active px-2 font-semibold">HOME</a>
                 <a href="#" className=" px-2 font-semibold text-white hover:text-[gold]">PROJECTS</a>
                 <a href="#about" className=" px-2 font-semibold text-white hover:text-[gold]">ABOUT US</a>
-                <a href="#" className=" px-2 font-semibold text-white hover:text-[gold]">SERVICES</a>
+                <a href="#services" className=" px-2 font-semibold text-white hover:text-[gold]">SERVICES</a>
                 <a href="#" className=" px-2 font-semibold text-white hover:text-[gold]">OUR TEAM</a>
                 <a href="#" className=" px-2 font-semibold text-white hover:text-[gold]">CAREERS</a>
                 <a href="#" className=" px-2 font-semibold text-white hover:text-[gold]">CONTACT</a>
