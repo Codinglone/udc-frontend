@@ -13,7 +13,15 @@ function ServicesTab() {
       {
         value: "tab1",
         name: "Town and Spacial Planning",
-        content: "Town and Spacial Planning tab content",
+        content: `Welcome to the Town and Spatial Planning section of UDC Ltd!
+
+        At UDC Ltd, we understand the critical importance of efficient and effective town and spatial planning in creating thriving communities. Our expert team specializes in providing comprehensive planning solutions that maximize land use, promote sustainable development, and enhance quality of life.
+        
+        With extensive experience in urban planning, we work closely with government agencies, developers, and community stakeholders to design master plans that integrate infrastructure, transportation, housing, and public spaces. Our approach combines creativity, strategic thinking, and a deep understanding of local context to deliver tailored planning solutions that meet the unique needs of each project.
+        
+        From small-scale neighborhood developments to large-scale urban regeneration projects, we strive to create vibrant, inclusive, and environmentally conscious spaces. Our planning services encompass site analysis, zoning and land use studies, feasibility assessments, and public engagement processes. We are committed to ensuring that our plans are both visionary and practical, laying the foundation for sustainable growth and development.
+        
+        At UDC Ltd, we believe that effective town and spatial planning is key to creating communities that thrive for generations to come. Explore our website to learn more about our planning expertise and how we can assist you in shaping a better future. Contact us today to discuss your town and spatial planning needs and let us help you turn your vision into reality.`,
         icon: FaBuilding,
         label: "Building icon",
       },
@@ -44,7 +52,7 @@ function ServicesTab() {
         <div className="flex justify-center w-full my-8" data-aos="fade-up"
         data-aos-duration={1500}>
         <VechaiProvider>
-      <div className="flex flex-wrap w-[50%] justify-center w-full p-8 space-x-4">
+      <div className="flex flex-wrap w-[50%] max-w-[50%] justify-center w-full p-8 space-x-4">
         <Tabs.Root className="flex flex-col shadow-lg " defaultValue="tab1">
           <Tabs.List
             aria-label="tabs example"
