@@ -9,6 +9,7 @@ import Portfolio from "./components/Portfolio"
 import Gallery from "./components/Gallery"
 import Partners from "./components/Partners"
 import PartnersTitle from "./components/PartnersTitle"
+import TeamTitle from "./components/TeamTitle"
 function App() {
 
   return (
@@ -24,6 +25,7 @@ function App() {
      <Gallery />
      <PartnersTitle />
      <Partners />
+     <TeamTitle />
     </main>
     <Footer />
     </>
