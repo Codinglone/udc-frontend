@@ -28,21 +28,49 @@ function ServicesTab() {
       {
         value: "tab2",
         name: "Building",
-        content: "Building tab content",
+        content: `Welcome to the Building Services section of UDC Ltd!
+
+        At UDC Ltd, we are committed to providing exceptional building services tailored to meet your unique needs. With our expert team of professionals, we offer a comprehensive range of construction solutions for both residential and commercial projects.
+        
+        From concept to completion, we ensure meticulous attention to detail, utilizing the latest industry techniques and materials. Our services include renovations, expansions, and new construction projects, all delivered with the highest level of craftsmanship and quality.
+        
+        We prioritize open communication, transparency, and timely project management to ensure a seamless construction experience. Our goal is to exceed your expectations, and we achieve this by collaborating closely with you, understanding your requirements and goals.
+        
+        With a strong emphasis on sustainability, we incorporate eco-friendly practices and materials whenever possible. We believe in creating spaces that are not only visually stunning but also energy-efficient, minimizing the environmental impact.
+        
+        At UDC Ltd, we take great pride in our reputation for excellence. Our portfolio showcases our expertise in delivering visually appealing, functional, and adaptable spaces. Explore our website to learn more about our services and view our project gallery. Contact us today to discuss your building service needs and experience the difference of exceptional craftsmanship and customer-centric construction services.`,
         icon: FaHome,
         label: "Home icon",
       },
       {
         value: "tab3",
         name: "Road Sector",
-        content: "Road Sector Tab Content",
+        content: `Welcome to the Road Sector Services section of UDC Ltd!
+
+        At UDC Ltd, we specialize in providing comprehensive road sector services to meet the transportation needs of communities and businesses. With our experienced team and cutting-edge technologies, we offer a wide range of solutions for road construction, maintenance, and rehabilitation.
+        
+        From the initial planning and design stages to the final implementation, we ensure the highest level of expertise and attention to detail. Our services encompass road construction, asphalt paving, road markings, traffic management, and maintenance activities. We are committed to delivering projects on time and within budget while prioritizing safety and quality.
+        
+        Our team works closely with government agencies, municipalities, and private clients to develop innovative road solutions that enhance connectivity, optimize traffic flow, and improve road safety. We understand the importance of sustainable road infrastructure and integrate eco-friendly practices whenever possible.
+        
+        At UDC Ltd, we take pride in our track record of successfully completed road projects. Our portfolio showcases our expertise in creating roads that are durable, efficient, and built to withstand the demands of everyday use. Explore our website to learn more about our road sector services and how we can assist you. Contact us today to discuss your road infrastructure needs and experience the difference of exceptional road sector solutions.`,
         icon: FaRoad,
         label: "Road icon",
       },
       {
         value: "tab4",
         name: "Electricity",
-        content: "Electricity tab content",
+        content: `Welcome to the Electricity Services section of UDC Ltd!
+
+        At UDC Ltd, we specialize in providing comprehensive electricity services to meet the diverse needs of our clients. With our experienced team of electrical professionals, we offer a wide range of solutions for residential, commercial, and industrial electrical projects.
+        
+        From electrical system design and installation to maintenance and repairs, we ensure reliable and efficient power solutions. Our services encompass electrical wiring, lighting installations, power distribution, energy audits, and electrical safety assessments. We prioritize safety, compliance with regulations, and the use of high-quality materials and equipment.
+        
+        Our team collaborates closely with clients to understand their specific requirements and deliver customized electrical solutions. We strive to enhance energy efficiency, reduce environmental impact, and maximize the reliability of electrical systems.
+        
+        At UDC Ltd, we take great pride in our expertise and commitment to excellence in the electricity sector. Our portfolio showcases successful projects across a wide range of industries, demonstrating our ability to handle projects of varying complexity.
+        
+        Explore our website to learn more about our electricity services and how we can assist you. Contact us today to discuss your electrical needs and experience the difference of exceptional craftsmanship and customer-centric electricity solutions.`,
         icon: BsFillLightningFill,
         label: "Lightning icon",
       },
