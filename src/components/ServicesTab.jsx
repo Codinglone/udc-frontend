@@ -12,7 +12,7 @@ function ServicesTab() {
     const tabs = [
       {
         value: "tab1",
-        name: "Town and Spacial Planning",
+        name: "Architectural & Interior Design",
         content: `Welcome to the Town and Spatial Planning section of UDC Ltd!
 
         At UDC Ltd, we understand the critical importance of efficient and effective town and spatial planning in creating thriving communities. Our expert team specializes in providing comprehensive planning solutions that maximize land use, promote sustainable development, and enhance quality of life.
@@ -27,7 +27,7 @@ function ServicesTab() {
       },
       {
         value: "tab2",
-        name: "Building",
+        name: "Civil Engineering",
         content: `Welcome to the Building Services section of UDC Ltd!
 
         At UDC Ltd, we are committed to providing exceptional building services tailored to meet your unique needs. With our expert team of professionals, we offer a comprehensive range of construction solutions for both residential and commercial projects.
@@ -44,7 +44,7 @@ function ServicesTab() {
       },
       {
         value: "tab3",
-        name: "Road Sector",
+        name: "Cost Estimation & Quality Surveying",
         content: `Welcome to the Road Sector Services section of UDC Ltd!
 
         At UDC Ltd, we specialize in providing comprehensive road sector services to meet the transportation needs of communities and businesses. With our experienced team and cutting-edge technologies, we offer a wide range of solutions for road construction, maintenance, and rehabilitation.
@@ -59,7 +59,7 @@ function ServicesTab() {
       },
       {
         value: "tab4",
-        name: "Electricity",
+        name: "Landing Surveing",
         content: `Welcome to the Electricity Services section of UDC Ltd!
 
         At UDC Ltd, we specialize in providing comprehensive electricity services to meet the diverse needs of our clients. With our experienced team of electrical professionals, we offer a wide range of solutions for residential, commercial, and industrial electrical projects.
@@ -94,11 +94,11 @@ function ServicesTab() {
                 key={tab.value}
                 value={tab.value}
                 className={cx(
-                  "px-4 py-2 h-10 -mb-px text-sm text-center whitespace-nowrap cursor-base focus:outline-none",
+                  "px-4 py-2 h-10 -mb-px text-lg text-center whitespace-nowrap cursor-base focus:outline-none",
                   "flex-shrink-0 inline-block",
                   "text-blue-700 bg-transparent border border-transparent",
-                  "hover:text-blue-900",
-                  "selected:bg-base selected:text-blue-900 selected:rounded-tl-md selected:rounded-tr-md",
+                  "hover:text-blue-800",
+                  "selected:bg-base selected:text-[gold] selected:rounded-tl-md selected:rounded-tr-md",
                   "selected:border-inherit selected:border-b-transparent",
                   // dark
                   "dark:text-neutral-400 dark:bg-transparent",

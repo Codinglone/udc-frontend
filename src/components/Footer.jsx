@@ -4,87 +4,87 @@ import Logo from "../assets/logo.png"
 const Footer = () => {
   return (
     
-<footer class="bg-white dark:bg-gray-900 border-t border-neutral-300">
-    <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-        <div class="md:flex md:justify-between">
-          <div class="mb-6 md:mb-0">
+<footer class="mr-4 dark:bg-gray-900 border-t border-gray-300 ml-8">
+    <div class="mx-auto  p-4 py-6 lg:py-8 w-5/6">
+        <div class="md:flex md:justify-between bg-blue-800 h-8 md:h-full">
+          <div class="mt-5 md:mb-0">
               <a href="/" class="flex items-center">
-                  <img src={Logo} class="h-8 mr-3" alt="FlowBite Logo" />
-                  <span class="self-center text-2xl font-semibold whitespace-nowrap text-blue-900 dark:text-white">UDC LTD</span>
+                  <img src={Logo} class="h-20 mr-4" alt="FlowBite Logo" />
+                  <span class="self-center text-2xl mt-5 font-semibold whitespace-nowrap text-white dark:text-white">UDC LTD</span>
               </a>
-              <ul class="text-gray-600 dark:text-gray-400 font-medium mt-2">
-                      <li class="mb-4">
+              <ul class="text-white dark:text-gray-400 font-medium m-1">
+                      <li class="mb-7">
                           <a href="/" class="hover:underline">Phone: +250784427142</a>
                       </li>
-                      <li className='mb-4'>
+                      <li className='mb-6'>
                           <a href="/" class="hover:underline">E-mail: codinglone@gmail.com</a>
                       </li>
-                      <li class="mb-4">
+                      <li class="mb-6">
                           <a href="/" class="hover:underline">Whatsapp: +250784427142</a>
                       </li>
-                      <li className='mb-4'>
+                      <li className='mb-6'>
                           <a href="/" class="hover:underline">Telegram: +250784427142</a>
                       </li>
                     
                   </ul>
           </div>
           <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-            
               <div>
-                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Services Areas</h2>
-                  <ul class="text-gray-600 dark:text-gray-400 font-medium">
-                      <li class="mb-4">
-                          <a href="/" class="hover:underline">Construction</a>
-                      </li>
-                      <li className='mb-4'>
-                          <a href="/" class="hover:underline">Town & Spacial Planning</a>
-                      </li>
-                      <li class="mb-4">
-                          <a href="/" class="hover:underline">Road Sector</a>
-                      </li>
-                      <li className='mb-4'>
-                          <a href="/" class="hover:underline">Electricity</a>
-                      </li>
-                    
-                  </ul>
-              </div>
-              <div>
-                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
-                  <ul class="text-gray-600 dark:text-gray-400 font-medium">
-                      <li class="mb-4">
+                  <h2 class="mt-16 mx-20 text-md font-extrabold text-white uppercase dark:text-white">Follow us</h2>
+                  <ul class="text-white dark:text-gray-400 font-medium">
+                      <li class="mt-8 mx-20">
                           <a href="https://twitter.com/" target='_blank' class="hover:underline ">Twitter</a>
                       </li>
-                      <li class="mb-4">
+                      <li class="mt-6 mx-20">
                           <a href="https://facebook.com/" target='_blank' class="hover:underline ">Facebook</a>
                       </li>
-                      <li class="mb-4">
+                      <li class="mt-6 mx-20">
                           <a href="https://instagram.com/" target='_blank' class="hover:underline ">Instagram</a>
                       </li>
-                      <li>
+                      <li class="mt-6 mx-20">
                           <a href="https://discord.gg/" class="hover:underline">Discord</a>
                       </li>
                   </ul>
               </div>
               <div>
-                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Useful Links</h2>
-                  <ul class="text-gray-600 dark:text-gray-400 font-medium">
-                      <li class="mb-4">
+                  <h2 class="mt-16 mx- text-md font-extrabold text-white uppercase dark:text-white">Useful Links</h2>
+                  <ul class="text-white dark:text-gray-400 font-medium">
+                      <li class="mt-8">
                           <a href="#" class="hover:underline">Home</a>
                       </li>
-                      <li className='mb-4'>
+                      <li className='mt-7'>
                           <a href="#about" class="hover:underline">About Us</a>
                       </li>
-                      <li class="mb-4">
+                      <li class="mt-5">
                           <a href="#services" class="hover:underline">Services</a>
                       </li>
-                      <li class="mb-4">
+                      <li class="mt-6">
                           <a href="#" class="hover:underline">Projects</a>
                       </li>
                   </ul>
               </div>
+              <div>
+                  <h2 class="mt-16 my-6 text-md font-extrabold text-white uppercase dark:text-white">Services we provide</h2>
+                  <ul class="text-white dark:text-gray-400 font-medium">
+                      <li class="mt-7 my-6">
+                          <a href="/" class="hover:underline">Architetural & Interior Design</a>
+                      </li>
+                      <li className='mt-4 my-6'>
+                          <a href="/" class="hover:underline">Civil Engineering</a>
+                      </li>
+                      <li class="mt-4 my-6">
+                          <a href="/" class="hover:underline">Cost Estimation & Quality Surveying</a>
+                      </li>
+                      <li className='mt-4 my-6'>
+                          <a href="/" class="hover:underline">Land Surveying</a>
+                      </li>
+                    
+                  </ul>
+              </div>
+              
           </div>
       </div>
-      <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+      <hr class="my-6 border-gray-400 sm:mx-auto dark:border-gray-700 lg:my-8" />
       <div class="sm:flex sm:items-center sm:justify-between">
           <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="/" class="hover:underline">UDC™</a>. All Rights Reserved.
           </span>

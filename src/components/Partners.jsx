@@ -30,7 +30,7 @@ const Partners = () => {
   };
 
   return (
-    <div className="shadow-lg p-8 mx-[10%] my-4" data-aos="fade-up"
+    <div className="shadow-lg p-8 mx-[10%] my-4 bg-slate-200" data-aos="fade-up"
     data-aos-duration={1500}>
       <h2 className="text-2xl font-bold mb-4 text-blue-700">Our Partners</h2>
       <p className="text-base mb-4 text-blue-900">

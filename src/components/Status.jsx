@@ -9,7 +9,7 @@ const Status = () => {
       <div className="w-full flex" data-aos="fade-up" data-aos-duration="1000">
         <div className="w-1/2 bg-blue-900 flex justify-between px-4 py-8">
           <div>
-            <CountUp redraw={true} end={20} duration={5}>
+            <CountUp redraw={true} end={100} duration={10}>
               {({ countUpRef, start }) => (
                 <VisibilitySensor onChange={start} delayedCall>
                   <span
@@ -26,7 +26,7 @@ const Status = () => {
             </span>
           </div>
           <div>
-          <CountUp redraw={true} end={35} duration={5}>
+          <CountUp redraw={true} end={180} duration={10}>
               {({ countUpRef, start }) => (
                 <VisibilitySensor onChange={start} delayedCall>
                   <span
@@ -38,13 +38,13 @@ const Status = () => {
             </CountUp>
             <br />
             <span className="font-semibold text-lg text-yellow-300">
-              HAPPY CLIENTS
+              CLIENTS
             </span>
           </div>
         </div>
         <div className="w-1/2 bg-yellow-300 flex justify-between px-4 py-8">
           <div>
-          <CountUp redraw={true} end={15} duration={5}>
+          <CountUp redraw={true} end={200} duration={10}>
               {({ countUpRef, start }) => (
                 <VisibilitySensor onChange={start} delayedCall>
                   <span

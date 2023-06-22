@@ -22,11 +22,12 @@ const CarouselComponent = () => {
           src={carousel2}
           className="max-h-[80vh] object-cover min-w-[100vw]"
         />
+      
+        <h1 className="absolute top-48 font-extrabold  lg:px-[12vw]  text-white text-6xl z-50">Let us manage your project!</h1>
         <h2 className="absolute top-28 text-white text-4xl w-full lg:px-[38vw] z-50">
-          We Are Professional
-        </h2>
-        <h1 className="absolute top-48 font-extrabold  lg:px-[12vw]  text-white text-7xl z-50">Let us manage your project!</h1>
-        <button className="absolute border-2 px-4 py-2 border-white top-80 lg:ml-[42vw]  text-white text-lg z-50 hover:border-[gold] hover:text-[gold]">LET'S WORK TOGETHER</button>
+          We Are Professionals
+        </h2> 
+        <button className="absolute border-2 px-4 py-2 border-white top-80 lg:ml-[42vw]  text-white text-lg z-50 hover:border-[gold] hover:text-[gold]">BOOK AN APPONTMENT</button>
       </div>
       <div>
         <div className="bg-black absolute z-50 opacity-30 w-full h-[80vh]"></div>
@@ -35,10 +36,10 @@ const CarouselComponent = () => {
           className="max-h-[80vh] object-cover min-w-[100vw]"
         />
         <h2 className="absolute top-28 text-white text-4xl  lg:px-[38vw] z-50">
-        Professional Design
+        Professional Designs
         </h2>
-        <h1 className="absolute top-48 font-extrabold  lg:px-[12vw]  text-white text-7xl z-50">We visulize your dream goals!</h1>
-        <button className="absolute border-2 px-4 py-2 border-white top-80 lg:ml-[42vw]  text-white text-lg z-50 hover:border-[gold] hover:text-[gold]">LET'S WORK TOGETHER</button>
+        <h1 className="absolute top-48 font-extrabold  lg:px-[12vw]  text-white text-6xl z-50">We visualize your dream goals!</h1>
+        <button className="absolute border-2 px-4 py-2 border-white top-80 lg:ml-[42vw]  text-white text-lg z-50 hover:border-[gold] hover:text-[gold]">BOOK AN APPONTMENT</button>
       </div>
       <div>
         <div className="bg-black absolute z-50 opacity-30 w-full h-[80vh]"></div>
@@ -47,10 +48,10 @@ const CarouselComponent = () => {
           className="max-h-[80vh] object-cover min-w-[100vw]"
         />
         <h2 className="absolute top-28 text-white text-4xl  lg:px-[38vw] z-50">
-        Professional Supervision
+        Professional Supervisions
         </h2>
         <h1 className="absolute top-48 font-extrabold  lg:px-[12vw]  text-white text-7xl z-50">Beyond your dreams limit!</h1>
-        <button className="absolute border-2 px-4 py-2 border-white top-80 lg:ml-[42vw]  text-white text-lg z-50 hover:border-[gold] hover:text-[gold]">LET'S WORK TOGETHER</button>
+        <button className="absolute border-2 px-4 py-2 border-white top-80 lg:ml-[42vw]  text-white text-lg z-50 hover:border-[gold] hover:text-[gold]">BOOK AN APPONTMENT</button>
       </div>
       
     </Slider>
