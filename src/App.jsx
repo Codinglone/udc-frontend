@@ -11,13 +11,15 @@ import Partners from "./components/Partners"
 import PartnersTitle from "./components/PartnersTitle"
 import TeamTitle from "./components/TeamTitle"
 import Team from "./components/Team"
+import Home from "./components/Home"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 
 function App() {
 
   return (
     <>
-    <main className=" overflow-hidden">
+    {/* <main className=" overflow-hidden">
     <Navbar />
     <Carousel />
      <Description />
@@ -31,7 +33,14 @@ function App() {
      <TeamTitle />
      <Team />
     </main>
+    <Footer /> */}
+  <BrowserRouter>
+    <Navbar />
+    <Routes>
+      <Route path="/" element={<Home />} />
+    </Routes>
     <Footer />
+  </BrowserRouter>
     </>
    
   )

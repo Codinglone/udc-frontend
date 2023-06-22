@@ -1,4 +1,5 @@
 import logo from "../assets/logo.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -19,40 +20,40 @@ const Navbar = () => {
             </i>
           </div>
           <div className="flex w-2/3 justify-between lg:ml-72">
-            <a href="/home" className="active font-semibold pr-2">
+            <Link to="/" className="active font-semibold pr-2">
               HOME
-            </a>
-            <a
-              href="/projects"
+            </Link>
+            <Link 
+              to="/about"
               id="ABOUTUS"
               className="font-semibold text-white hover:text-[gold] pr-2"
             >
               ABOUT US
-            </a>
-            <a
-              href="/projects"
+            </Link>
+            <Link
+              to="/projects"
               className="font-semibold text-white hover:text-[gold] pr-2"
             >
               PROJECTS
-            </a>
-            <a
-              href="/services"
+            </Link>
+            <Link
+              to="/services"
               className="font-semibold text-white hover:text-[gold] pr-2"
             >
               SERVICES
-            </a>
-            <a
-              href="/team"
+            </Link>
+            <Link
+              to="/team"
               className="font-semibold text-white hover:text-[gold] pr-2"
             >
               OUR TEAM
-            </a>
-            <a
-              href="/contacts"
+            </Link>
+            <Link
+              to="/contacts"
               className="font-semibold text-white hover:text-[gold] pr-2"
             >
               CONTACT
-            </a>
+            </Link>
           </div>
         </div>
         <div className="">

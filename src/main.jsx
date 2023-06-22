@@ -8,9 +8,7 @@ import { ThemeProvider } from "@material-tailwind/react";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
       <ThemeProvider>
-    {/* <VechaiProvider> */}
         <App />
-    {/* </VechaiProvider> */}
       </ThemeProvider>
   </React.StrictMode>
 );
