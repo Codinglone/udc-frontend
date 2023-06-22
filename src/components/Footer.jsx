@@ -4,9 +4,9 @@ import Logo from "../assets/logo.png"
 const Footer = () => {
   return (
     
-<footer class="mr-4 dark:bg-gray-900 border-t border-gray-300 ml-8">
-    <div class="mx-auto  p-4 py-6 lg:py-8 w-5/6">
-        <div class="md:flex md:justify-between bg-blue-800 h-8 md:h-full">
+<footer class=" dark:bg-gray-900 border-t border-gray-300">
+    <div class="p-4 py-6 w-full">
+        <div class="md:flex md:justify-between md:w-full bg-blue-800 h-8 md:h-full">
           <div class="mt-5 md:mb-0">
               <a href="/" class="flex items-center">
                   <img src={Logo} class="h-20 mr-4" alt="FlowBite Logo" />
