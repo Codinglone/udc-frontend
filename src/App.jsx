@@ -11,6 +11,8 @@ import Partners from "./components/Partners"
 import PartnersTitle from "./components/PartnersTitle"
 import TeamTitle from "./components/TeamTitle"
 import Team from "./components/Team"
+
+
 function App() {
 
   return (
@@ -31,6 +33,7 @@ function App() {
     </main>
     <Footer />
     </>
+   
   )
 }
 

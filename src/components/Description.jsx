@@ -22,7 +22,7 @@ const Description = () => {
             20 Years Of Experience
           </h1>
         </div> */}
-        <SectionTitle title="Welcome to UDC" titleText="20 Years Of Experience" />
+        <SectionTitle title="Welcome to UDC" titleText="10 Years Of Experience" />
         <p className="my-2 font-bold text-blue-900">
           At Universal Design and Construction Ltd, we specialize in creating
           innovative and transformative spaces that meet the unique needs of our
@@ -34,7 +34,7 @@ const Description = () => {
           concept to completion, we ensure meticulous attention to detail,
           utilizing the latest industry techniques and materials to bring your
           vision to life. Our commitment to excellence extends beyond just
-          building structures; we prioritize the principles of universal design
+          building structures; we prioritize the principles of universal designs
           in all our projects.
         </p>
       </div>
