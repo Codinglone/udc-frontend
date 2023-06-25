@@ -12,4 +12,10 @@
 * {
   scroll-behavior: smooth;
 }
-#ABOUTUS:hover{color: gold;}
+#ABOUTUS:hover{
+  color: gold;
+}
+.backdrop-filter{
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}

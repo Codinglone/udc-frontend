@@ -2,7 +2,7 @@ import logo from "../assets/logo.png"
 
 const Navbar = () => {
   return (
-    <nav className="shadow-lg md:pb-8">
+    <nav className="shadow-lg md:pb-8 overfow-hidden w-full">
         {/* <div className="flex justify-between md:mx-8 md:my-2">
        
             <div id="details" className="flex justify-between py-4 md:w-[60%]">
@@ -27,7 +27,7 @@ const Navbar = () => {
                 <i className="font-semibold text-white text-sm py-12">UNIVERSAL DESIGN AND <br /> CONSTRUCTION (UDC) LTD</i>
             </div>
                 <a href="/home" className="active font-semibold">HOME</a>
-                <a href="/projects" id="ABOUTUS" className="font-semibold text-white hover:text-[gold]">PROJECTS</a>
+                <a href="/projects" id="ABOUTUS" className="font-semibold text-white hover:text-[gold]">ABOUT US</a>
                 <a href="/projects" className="font-semibold text-white hover:text-[gold]">PROJECTS</a>
                 <a href="/services" className="font-semibold text-white hover:text-[gold]">SERVICES</a>
                 <a href="/team" className="font-semibold text-white hover:text-[gold]">OUR TEAM</a>
