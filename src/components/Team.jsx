@@ -113,7 +113,7 @@ const Team = () => {
                   Social Media &amp; Communication
                 </span>
                 <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
-                  Samuel is the managing social media and commutication at UDC.
+                  Samuel is managing social media and commutication at UDC.
                 </p>
                 <ul className="flex space-x-4 sm:mt-0">
                   <li>

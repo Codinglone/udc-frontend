@@ -1,8 +1,13 @@
 
-import project1 from "../assets/carousel-1.jpeg"
-import project2 from "../assets/carousel-2.jpeg"
-import project3 from "../assets/carousel-3.jpg"
-import project4 from "../assets/carousel-4.jpg"
+import project1 from "../assets/homepage.jpg"
+import project2 from "../assets/aboutuspage.jpg"
+import project3 from "../assets/project.jpg"
+import project4 from "../assets/project2.jpg"
+import project5 from "../assets/project3.jpg"
+import project6 from "../assets/project4.jpg"
+import project7 from "../assets/project5.jpg"
+import project8 from "../assets/1photo.jpg"
+
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -43,28 +48,28 @@ const Gallery = () => {
     {
       id: 5,
       name: 'Project 5',
-      image: project4,
+      image: project5,
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       client: 'Client 5',
     },
     {
       id: 6,
       name: 'Project 6',
-      image: project3,
+      image: project6,
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin hendrerit finibus sapien non elementum.',
       client: 'Client 6',
     },
     {
       id: 7,
       name: 'Project 7',
-      image: project2,
+      image: project7,
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin hendrerit finibus sapien non elementum.',
       client: 'Client 7',
     },
     {
       id: 8,
       name: 'Project 8',
-      image: project1,
+      image: project8,
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin hendrerit finibus sapien non elementum.',
       client: 'Client 8',
     },
@@ -120,12 +125,12 @@ const Gallery = () => {
             </div>
             <div className="bg-blue-500 p-2 text-white flex justify-between">
               <p>{project.name}</p>
-              <button
+              {/* <button
                 className="text-white font-bold text-2xl hover:text-blue-900"
                 onClick={() => openModal(project)}
               >
                 +
-              </button>
+              </button> */}
             </div>
           </div>
         ))}

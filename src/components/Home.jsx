@@ -16,17 +16,26 @@ function Home() {
   return (
     <>
     <main className=" overflow-hidden">
-    <Carousel />
+    <div className='grid justify-center items-center'>
+        <div className="bg-gray-800 absolute z-50 opacity-20 w-full h-[79vh]"></div>
+        <img
+          src="src/assets/PROJECT6.jpg"
+          className="max-h-[79vh] object-cover min-w-[99vw]"
+        />
+       <h1 className="absolute font-extrabold font-sans lg:px-[12vw]  text-white text-7xl z-50">
+      THE ROAD TO SUCCESS<br /> IS ALWAYS UNDER<br /> CONSTUCTION!</h1>
+      </div>
+    {/* <Carousel /> */}
      <Description />
-     <Status />
      <Services />
      <ServicesTab />
      <Portfolio />
      <Gallery />
-     <PartnersTitle />
-     <Partners />
+     {/* <PartnersTitle />
+     <Partners /> */}
      <TeamTitle />
      <Team />
+     <Status />
     </main>
     </>
    

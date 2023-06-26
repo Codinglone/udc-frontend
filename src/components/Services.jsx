@@ -7,7 +7,7 @@ const Services = () => {
   return (
     <div className='flex justify-center my-24' id='services' data-aos="fade-up"
     data-aos-duration={1500}>
-        <SectionTitle title="Our Services" titleText="What do we do?" serviceCentered={true} />
+        <SectionTitle title="" titleText="What we do?" serviceCentered={true} />
     </div>
   )
 }
