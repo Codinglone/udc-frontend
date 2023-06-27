@@ -6,7 +6,7 @@ const Team = () => {
   return (
     <>
       <section
-        className="bg-white dark:bg-gray-900"
+        className="bg-gradient-to-r from-indigo-50 dark:bg-gray-900"
         data-aos="fade-up"
         data-aos-duration={1500}
       >
@@ -113,7 +113,7 @@ const Team = () => {
                   Social Media &amp; Communication
                 </span>
                 <p className="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">
-                  Samuel is the managing social media and commutication at UDC.
+                  Samuel is managing social media and commutication at UDC.
                 </p>
                 <ul className="flex space-x-4 sm:mt-0">
                   <li>
@@ -187,7 +187,7 @@ const Team = () => {
               </a>
               <div className="p-5">
                 <h3 className="text-xl font-bold tracking-tight text-blue-700 dark:text-white">
-                  <a href="#">Christian</a>
+                  <a href="#">Christian KWIZERA</a>
                 </h3>
                 <span className="text-gray-500 dark:text-gray-400">
                   MD &amp; Project Manager

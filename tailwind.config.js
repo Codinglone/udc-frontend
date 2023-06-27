@@ -19,6 +19,7 @@ export default withMT({
         danger: colors.red,
         warning: colors.yellow,
       }
+     
     },
   },
   plugins: [require("@tailwindcss/forms"),

@@ -1,8 +1,7 @@
 import Navbar from "./components/Navbar"
 import Carousel from "./components/Carousel"
-import Description from "./components/Description"
 import Status from "./components/Status"
-import Services from "./components/Services"
+
 import ServicesTab from "./components/ServicesTab"
 import Footer from "./components/Footer"
 import Portfolio from "./components/Portfolio"
@@ -10,28 +9,31 @@ import Gallery from "./components/Gallery"
 import Partners from "./components/Partners"
 import PartnersTitle from "./components/PartnersTitle"
 import TeamTitle from "./components/TeamTitle"
-import Team from "./components/Team"
-
+import Home from "./components/Home"
+import About from "./pages/About"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import Projects from "./pages/Projects"
+import Services from "./pages/Services"
+import TeamPage from "./pages/Team"
+import Contact from "./pages/Contact"
 
 function App() {
 
   return (
     <>
-    <main className=" overflow-hidden">
+   
+  <BrowserRouter>
     <Navbar />
-    <Carousel />
-     <Description />
-     <Status />
-     <Services />
-     <ServicesTab />
-     <Portfolio />
-     <Gallery />
-     <PartnersTitle />
-     <Partners />
-     <TeamTitle />
-     <Team />
-    </main>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/projects" element={<Projects />} />
+      <Route path="/services" element={<Services />} />
+      <Route path="/team" element={<TeamPage />} />
+      <Route path="/contacts" element={<Contact />} />
+    </Routes>
     <Footer />
+  </BrowserRouter>
     </>
    
   )

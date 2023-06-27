@@ -6,36 +6,52 @@ AOS.init();
 const Description = () => {
   return (
     <div
-      className="my-24 mx-4 w-full flex"
+      className="my-16 mx-6 flex"
       data-aos="fade-up"
       data-aos-duration={1500}
     >
       <div className="w-1/2">
-        <img src={carousel3} alt="Photo" />
+        <img src="src/assets/aboutuspage.jpg" alt="Photo" 
+        className="rounded-sm m-6" />
       </div>
-      <div className="w-[44%] ml-8" id="about">
-        {/* <div className="section-title">
-          <h3 className="text-blue-900 font-bold text-xl mb-2">
-            Welcome to UDC
-          </h3>
-          <h1 className="text-5xl font-bold text-blue-700">
-            20 Years Of Experience
-          </h1>
-        </div> */}
-        <SectionTitle title="Welcome to UDC" titleText="10 Years Of Experience" />
-        <p className="my-2 font-bold text-blue-900">
-          At Universal Design and Construction Ltd, we specialize in creating
+      <div className="w-[44%] ml-16 my-3" id="about">
+
+        <SectionTitle title="" titleText="WELCOME TO UDC!" />
+        <p className="my-5 leading-7 font-bold text-blue-900 text-lg">
+        At Universal Design And Construction, Ltd., we understand that
+        each client is unique and has distinct dreams and aspirations.
+        We prioritize client collaboration and aim to create spaces that 
+        truly reflect their vision. By engaging in open and transparent 
+        communication, we ensure that our clients' needs are at the forefront
+        of every decision.
+        With a team of highly skilled architects, engineers, and construction
+        professionals, Universal Design And Construction Ltd, brings together
+        a wealth of expertise and experience to create stunning, functional, and
+        sustainable structures. Our team possesses a deep understanding of modern
+        architectural trends, incorporating luxurious aesthetics and green design
+        principles into every project. Universal Design And Construction, Ltd. is 
+        proud to have established a strong reputation for excellence, integrity, and
+        customer satisfaction. 
+          {/* At Universal Design and Construction Ltd, we specialize in creating
           innovative and transformative spaces that meet the unique needs of our
-          clients. As a leading construction company, we pride ourselves on
-          delivering exceptional craftsmanship, outstanding quality, and
-          unparalleled customer service. With a team of highly skilled
-          professionals, we offer a comprehensive range of construction
-          services, catering to both residential and commercial projects. From
-          concept to completion, we ensure meticulous attention to detail,
-          utilizing the latest industry techniques and materials to bring your
-          vision to life. Our commitment to excellence extends beyond just
-          building structures; we prioritize the principles of universal designs
-          in all our projects.
+          clients. <br /> <i className="text-xl text-blue-800">MOTIVATION:</i> dedicated to creating exceptional spaces 
+          that inspire and exceed expectations. With a focus on collaboration, innovation, and 
+          sustainability, we turn dreams into reality, delivering outstanding residential, commercial, 
+          and hospitality projects. Join us on this exciting journey where luxury design meets sustainability.
+           Welcome to Universal Design And Construction, Ltd.!
+          <br /><i className="text-xl text-blue-800">OUR GOALS:</i> Client Satisfaction, Excellence in Design and Construction, Sustainable Practices, Timely Project
+           Delivery and Continuous Improvement.
+          <br /><i className="text-xl text-blue-800">OUR VALUES:</i> Client-Centric Approach, Integrity and Transparency, Collaboration and Teamwork, Innovation and Creativity, */}
+           {/* Sustainability and Environmental Responsibility and Quality and Craftsmanship. */}
+          {/* <br /><i className="text-xl text-blue-800"> OUR MISSION IS:</i> to create exceptional spaces that embody
+         our clients' dreams through modern design, luxury, and 
+         sustainable practices. We prioritize collaboration, 
+         innovation, and quality to deliver outstanding residential,
+         commercial, and hospitality projects that exceed expectations.
+         <br /><i className="text-xl text-blue-800">OUR VISION IS:</i> To be the leading provider of luxury design and construction 
+        services, integrating client aspirations, innovative architectural
+        concepts, and sustainable practices to create exceptional spaces 
+        that inspire and exceed expectations. */}
         </p>
       </div>
     </div>
@@ -43,3 +59,4 @@ const Description = () => {
 };
 
 export default Description;
+

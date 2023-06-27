@@ -1,8 +1,9 @@
-import logo from "../assets/logo.png"
+import logo from "../assets/logo.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="shadow-lg md:pb-8 overfow-hidden w-full">
+    <nav className="shadow-lg md:pb-8">
         {/* <div className="flex justify-between md:mx-8 md:my-2">
        
             <div id="details" className="flex justify-between py-4 md:w-[60%]">
@@ -27,7 +28,7 @@ const Navbar = () => {
                 <i className="font-semibold text-white text-sm py-12">UNIVERSAL DESIGN AND <br /> CONSTRUCTION (UDC) LTD</i>
             </div>
                 <a href="/home" className="active font-semibold">HOME</a>
-                <a href="/projects" id="ABOUTUS" className="font-semibold text-white hover:text-[gold]">ABOUT US</a>
+                <a href="/projects" id="ABOUTUS" className="font-semibold text-white hover:text-[gold]">PROJECTS</a>
                 <a href="/projects" className="font-semibold text-white hover:text-[gold]">PROJECTS</a>
                 <a href="/services" className="font-semibold text-white hover:text-[gold]">SERVICES</a>
                 <a href="/team" className="font-semibold text-white hover:text-[gold]">OUR TEAM</a>
@@ -37,7 +38,7 @@ const Navbar = () => {
              <button className="border-2 border-white p-2 text-white rounded-md font-semibold hover:text-[gold] hover:border-b-2 hover:border-[gold]">LOGIN</button>
         </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
