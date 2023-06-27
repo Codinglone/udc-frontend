@@ -77,7 +77,7 @@ function ServicesTab() {
     ];
   
     return (
-        <div className="flex justify-center w-full my-12" data-aos="fade-up"
+        <div className="flex justify-center w-full" data-aos="fade-up"
         data-aos-duration={1500}>
         <VechaiProvider>
       <div className="flex flex-wrap w-[50%] max-w-[50%] justify-center">

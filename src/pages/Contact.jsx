@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <>
+    <div className=''>
     <div className='grid justify-center items-center'>
         <div className="bg-gray-800 absolute z-50 opacity-10 w-full h-[60vh]"></div>
         <img
@@ -19,7 +19,7 @@ const Contact = () => {
                <h1 className='text-blue-800 text-lg font-extrabold p-4'>OR EMAIL US :
                 <span className='text-gray-800 text-md dark:text-gray-400 font-extrabold mb-16'> universaldesignandcons@gmail.com</span></h1>
                 </div>
-                </>
+                </div>
 
   )
 

@@ -6,18 +6,18 @@ AOS.init();
 const Description = () => {
   return (
     <div
-      className="my-12 mx-6 w-full flex"
+      className="my-16 mx-6 w-full flex"
       data-aos="fade-up"
       data-aos-duration={1500}
     >
       <div className="w-1/2">
         <img src="src/assets/aboutuspage.jpg" alt="Photo" 
-        className="rounded-sm" />
+        className="rounded-sm m-6" />
       </div>
-      <div className="w-[44%] ml-12" id="about">
+      <div className="w-[44%] ml-16 my-3" id="about">
 
         <SectionTitle title="" titleText="WELCOME TO UDC!" />
-        <p className="my-2 font-bold text-blue-900 text-lg">
+        <p className="my-5 leading-7 font-bold text-blue-900 text-lg">
         At Universal Design And Construction, Ltd., we understand that
         each client is unique and has distinct dreams and aspirations.
         We prioritize client collaboration and aim to create spaces that 
@@ -25,7 +25,7 @@ const Description = () => {
         communication, we ensure that our clients' needs are at the forefront
         of every decision.
         With a team of highly skilled architects, engineers, and construction
-        professionals, Universal Design And Construction, Ltd. brings together
+        professionals, Universal Design And Construction Ltd, brings together
         a wealth of expertise and experience to create stunning, functional, and
         sustainable structures. Our team possesses a deep understanding of modern
         architectural trends, incorporating luxurious aesthetics and green design
