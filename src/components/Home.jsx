@@ -15,7 +15,7 @@ function Home() {
 
   return (
     <>
-    <main className=" overflow-hidden">
+    <main className=" overflow-hidden bg-gradient-to-r from-indigo-50">
     <div className='grid justify-center items-center'>
         <div className="bg-gray-800 absolute z-50 opacity-10 w-full h-[80vh]"></div>
         <img

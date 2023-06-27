@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="shadow-lg md:pb-1 w-full">
+    <nav className="bg-gradient-to-r from-indigo-50 shadow-lg md:pb-1 w-full">
       <div className="nav-menu p-6 flex items-center w-full">
         <div className="menus flex w-full py-">
           <div
