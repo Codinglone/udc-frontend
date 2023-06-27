@@ -6,7 +6,7 @@ AOS.init();
 const Description = () => {
   return (
     <div
-      className="my-16 mx-6 w-full flex"
+      className="my-16 mx-6 flex"
       data-aos="fade-up"
       data-aos-duration={1500}
     >
