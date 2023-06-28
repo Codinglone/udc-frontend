@@ -1,12 +1,11 @@
-import React from 'react'
-
+import photo1 from "../assets/1photo.jpg"
 const Contact = () => {
   return (
     <div className='mt-40'>
     <div className='grid justify-center items-center'>
         <div className="bg-gray-800 absolute z-50 opacity-10 w-full h-[60vh]"></div>
         <img
-          src="src/assets/1photo.jpg"
+          src={photo1}
           className="max-h-[60vh] object-cover min-w-[98vw]"
         />
        
