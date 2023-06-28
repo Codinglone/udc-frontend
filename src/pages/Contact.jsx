@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className=''>
+    <div className='mt-40'>
     <div className='grid justify-center items-center'>
         <div className="bg-gray-800 absolute z-50 opacity-10 w-full h-[60vh]"></div>
         <img

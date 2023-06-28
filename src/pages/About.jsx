@@ -4,7 +4,7 @@ import SectionTitle from '../components/SectionTitle'
 
 const About = () => {
   return (
-    <div>
+    <div className='mt-40'>
        {/* <div
       className="my-16 mx-6 w-full flex justify-between"
       data-aos="fade-up"

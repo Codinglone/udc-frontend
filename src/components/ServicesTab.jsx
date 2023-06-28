@@ -120,7 +120,7 @@ function ServicesTab() {
             <Tabs.Content
               key={tab.value}
               value={tab.value}
-              className="p-4 flex-grow-1 text-blue-900 font-semibold"
+              className="p-4 flex-grow-1 text-neutral-900 text-justify"
             >
               {tab.content}
             </Tabs.Content>
