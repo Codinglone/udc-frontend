@@ -10,11 +10,11 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white shadow-lg md:pb-1 w-full">
+    <nav className="bg-white lg:h-24  shadow-lg md:pb-1 w-full" style={{position: 'fixed', zIndex: '1000', top: 0, }}>
       <div className="nav-menu p-6 flex items-center w-full">
         <div className="md:hidden flex items-center">
           <button
-            className="text-blue-700 hover:text-gold focus:outline-none"
+            className="text-blue-700 hover:text-[gold] focus:outline-none"
             onClick={handleMobileMenuToggle}
           >
             {isMobileMenuOpen ? (
@@ -64,37 +64,37 @@ const Navbar = () => {
           </div>
           <Link
             to="/"
-            className="text-blue-700 font-bold hover:text-gold transition-colors duration-300"
+            className="text-blue-700 pt-2 font-bold hover:text-[gold] transition-colors duration-300"
           >
             HOME
           </Link>
           <Link
             to="/about"
-            className="text-blue-700 font-bold hover:text-gold transition-colors duration-300"
+            className="text-blue-700 pt-2 font-bold hover:text-[gold] transition-colors duration-300"
           >
             ABOUT US
           </Link>
           <Link
             to="/projects"
-            className="text-blue-700 font-bold hover:text-gold transition-colors duration-300"
+            className="text-blue-700 pt-2 font-bold hover:text-[gold] transition-colors duration-300"
           >
             PROJECTS
           </Link>
           <Link
             to="/services"
-            className="text-blue-700 font-bold hover:text-gold transition-colors duration-300"
+            className="text-blue-700 pt-2 font-bold hover:text-[gold] transition-colors duration-300"
           >
             SERVICES
           </Link>
           <Link
             to="/team"
-            className="text-blue-700 font-bold hover:text-gold transition-colors duration-300"
+            className="text-blue-700 pt-2 font-bold hover:text-[gold] transition-colors duration-300"
           >
             OUR TEAM
           </Link>
           <Link
             to="/contacts"
-            className="text-blue-700 font-bold hover:text-gold transition-colors duration-300"
+            className="text-blue-700 pt-2 font-bold hover:text-[gold] transition-colors duration-300"
           >
             CONTACT
           </Link>
@@ -104,37 +104,37 @@ const Navbar = () => {
         <div className="hidden md:visible lg:hidden flex flex-col mt-2">
           <Link
             to="/"
-            className="block py-2 px-4 text-blue-700 font-bold hover:bg-yellow-200 hover:text-gold"
+            className="block py-2 px-4 text-blue-700 font-bold hover:bg-yellow-200 hover:text-[gold]"
           >
             HOME
           </Link>
           <Link
             to="/about"
-            className="block py-2 px-4 text-blue-700 font-bold hover:bg-yellow-200 hover:text-gold"
+            className="block py-2 px-4 text-blue-700 font-bold hover:bg-yellow-200 hover:text-[gold]"
           >
             ABOUT US
           </Link>
           <Link
             to="/projects"
-            className="block py-2 px-4 text-blue-700 font-bold hover:bg-yellow-200 hover:text-gold"
+            className="block py-2 px-4 text-blue-700 font-bold hover:bg-yellow-200 hover:text-[gold]"
           >
             PROJECTS
           </Link>
           <Link
             to="/services"
-            className="block py-2 px-4 text-blue-700 font-bold hover:bg-yellow-200 hover:text-gold"
+            className="block py-2 px-4 text-blue-700 font-bold hover:bg-yellow-200 hover:text-[gold]"
           >
             SERVICES
           </Link>
           <Link
             to="/team"
-            className="block py-2 px-4 text-blue-700 font-bold hover:bg-yellow-200 hover:text-gold"
+            className="block py-2 px-4 text-blue-700 font-bold hover:bg-yellow-200 hover:text-[gold]"
           >
             OUR TEAM
           </Link>
           <Link
             to="/contacts"
-            className="block py-2 px-4 text-blue-700 font-bold hover:bg-yellow-200 hover:text-gold"
+            className="block py-2 px-4 text-blue-700 font-bold hover:bg-yellow-200 hover:text-[gold]"
           >
             CONTACT
           </Link>
@@ -145,37 +145,37 @@ const Navbar = () => {
           <div className="bg-white py-2 px-4 border-t border-blue-200">
             <Link
               to="/"
-              className="block py-2 text-blue-700 font-bold hover:text-gold transition-colors duration-300"
+              className="block py-2 text-blue-700 font-bold hover:text-[gold] transition-colors duration-300"
             >
               HOME
             </Link>
             <Link
               to="/about"
-              className="block py-2 text-blue-700 font-bold hover:text-gold transition-colors duration-300"
+              className="block py-2 text-blue-700 font-bold hover:text-[gold] transition-colors duration-300"
             >
               ABOUT US
             </Link>
             <Link
               to="/projects"
-              className="block py-2 text-blue-700 font-bold hover:text-gold transition-colors duration-300"
+              className="block py-2 text-blue-700 font-bold hover:text-[gold] transition-colors duration-300"
             >
               PROJECTS
             </Link>
             <Link
               to="/services"
-              className="block py-2 text-blue-700 font-bold hover:text-gold transition-colors duration-300"
+              className="block py-2 text-blue-700 font-bold hover:text-[gold] transition-colors duration-300"
             >
               SERVICES
             </Link>
             <Link
               to="/team"
-              className="block py-2 text-blue-700 font-bold hover:text-gold transition-colors duration-300"
+              className="block py-2 text-blue-700 font-bold hover:text-[gold] transition-colors duration-300"
             >
               OUR TEAM
             </Link>
             <Link
               to="/contacts"
-              className="block py-2 text-blue-700 font-bold hover:text-gold transition-colors duration-300"
+              className="block py-2 text-blue-700 font-bold hover:text-[gold] transition-colors duration-300"
             >
               CONTACT
             </Link>

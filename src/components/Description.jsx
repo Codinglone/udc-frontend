@@ -1,4 +1,4 @@
-import carousel3 from "../assets/carousel-3.jpg";
+import aboutusImg from "../assets/aboutuspage.jpg";
 import SectionTitle from "./SectionTitle";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -11,13 +11,13 @@ const Description = () => {
       data-aos-duration={1500}
     >
       <div className="w-1/2">
-        <img src="src/assets/aboutuspage.jpg" alt="Photo" 
+        <img src={aboutusImg} alt="Photo" 
         className="rounded-sm m-6" />
       </div>
       <div className="w-[44%] ml-16 my-3" id="about">
 
         <SectionTitle title="" titleText="WELCOME TO UDC!" />
-        <p className="my-5 leading-7 font-bold text-blue-900 text-lg">
+        <p className="my-5 leading-7 text-justify text-neutral-900 text-lg">
         At Universal Design And Construction, Ltd., we understand that
         each client is unique and has distinct dreams and aspirations.
         We prioritize client collaboration and aim to create spaces that 
