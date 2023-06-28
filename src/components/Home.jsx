@@ -9,18 +9,19 @@ import Partners from "./Partners"
 import PartnersTitle from "./PartnersTitle"
 import TeamTitle from "./TeamTitle"
 import Team from "./Team"
+import project7 from "../assets/project7.jpg"
 
 
 function Home() {
 
   return (
     <>
-    <main className=" overflow-hidden bg-gradient-to-r from-indigo-50">
-    <div className='grid justify-center items-center'>
+    <main className=" overflow-hidden">
+    <div className='grid justify-center items-center lg:mt-12'>
         <div className="bg-gray-800 absolute z-50 opacity-10 w-full h-[80vh]"></div>
         <img
-          src="src/assets/PROJECT6.jpg"
-          className="max-h-[80vh] object-cover min-w-[99vw]"
+          src={project7}
+          className="max-h-[80vh] md:mt-12 object-cover min-w-[99vw]"
         />
        <h1 className="absolute font-extrabold font-sans lg:px-[12vw]  text-white text-7xl z-50">
       THE ROAD TO SUCCESS<br /> IS ALWAYS UNDER<br /> CONSTUCTION!</h1>
