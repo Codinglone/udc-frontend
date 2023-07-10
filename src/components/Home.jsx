@@ -10,7 +10,7 @@ AOS.init();
 function Home() {
   return (
     <>
-      <main className=" overflow-hidden bg-gradient-to-r from-indigo-50">
+      <main className="overflow-hidden">
         <div className="grid justify-start items-start">
           <div className="bg-gray-800 absolute z-50 opacity-10 w-full h-[70vh]"></div>
           <img
