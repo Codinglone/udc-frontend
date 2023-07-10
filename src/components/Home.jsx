@@ -34,22 +34,6 @@ function Home() {
         <Description />
         <Services />
 
-        {/* <div className="ml-40 gap-x-8 gap-y-4 grid grid-rows-2 grid-flow-col" id='servicesInfo' data-aos="fade-up"
-    data-aos-duration={1500}>
-      <h1 className="font-extrabold font-sans text-lg">Architectural & Interior Design</h1>
-      <p className="w-1/2 font-bold text-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima consequuntur, rem,
-         repudiandaeiditate illo accusantium totam.</p>
-      <h1 className="font-extrabold font-sans text-lg">Civil Engineering</h1>
-      <p className="font-bold text-lg w-1/2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima consequuntur, rem,
-         repudiandaeiditate illo accusantium totam.</p>
-      <h1 className="font-extrabold font-sans text-lg">Cost Estimation & Quality Surveying</h1>
-      <p className="w-1/2 font-bold text-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima consequuntur, rem,
-         repudiandaeiditate illo accusantium totam.</p>
-      <h1 className="font-extrabold font-sans text-lg">Landing Surveying</h1>
-      <p className="w-1/2 font-bold text-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima consequuntur, rem,
-         repudiandaeiditate illo accusantium totam.</p>
-      </div> */}
-
         <div className="flex justify-between px-12">
           <div>
             <h1 className="text-[20px] font-extrabold text-black uppercase pb-4">Architecture Design</h1>

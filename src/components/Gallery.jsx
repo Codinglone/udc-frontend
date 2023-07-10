@@ -125,12 +125,6 @@ const Gallery = () => {
             </div>
             <div className="bg-blue-500 p-2 text-white flex justify-between">
               <p>{project.name}</p>
-              {/* <button
-                className="text-white font-bold text-2xl hover:text-blue-900"
-                onClick={() => openModal(project)}
-              >
-                +
-              </button> */}
             </div>
           </div>
         ))}
