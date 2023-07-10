@@ -19,7 +19,7 @@ function Home() {
           className="max-h-[70vh] object-cover min-w-[99vw]"
         />
         
-       <h1 className="absolute font-extrabold font-sans lg:px-[3vw] text-white text-8xl z-50 py-20">
+       <h1 className="absolute font-extrabold font-sans lg:px-[3vw] text-white text-7xl z-50 py-24">
       UDC LTD</h1>
       <p className="absolute font-extrabold font-sans lg:px-[3vw] text-white text-6xl z-50 py-48">
          ENGINEERING <br /> WE LEAD!</p>

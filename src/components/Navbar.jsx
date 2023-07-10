@@ -8,15 +8,15 @@ const Navbar = () => {
         <div className="menus flex w-full">
           <div
             id="brand"
-            className="absolute top-0 left-0 w-1/6 flex px- cursor-pointer"
+            className="absolute top-0 left-0 w-1/5 flex px- cursor-pointer"
           >
             <img
               src={logo}
-              className="object-contain md:max-w-[60%] bg-wite"
+              className="object-contain md:max-w-[49%] bg-wite"
               alt=""
             />
-            <i className="font-bold text-blue-700 text-sm py-10">
-              UNIVERSAL DESIGN AND <br /> CONSTRUCTION (UDC) LTD
+            <i className="font-bold text-blue-700 text-sm py-12">
+              UNIVERSAL DESIGN AND CONSTRUCTION <br /> LTD
             </i>
           </div>
           <div className="flex gap-20 justify-between lg:ml-96">
@@ -53,9 +53,7 @@ const Navbar = () => {
             </Link>
           </div>
         </div>
-          {/* <button className="border-2 border-blue-200 p-2 text-blue-700  rounded-md font-bold hover:text-[gold] hover:border-b-2 hover:border-[gold]">
-            LOGIN
-          </button> */}
+         
       </div>
     </nav>
   );
