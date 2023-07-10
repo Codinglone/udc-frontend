@@ -25,6 +25,7 @@
     "react-countup": "^6.4.2",
     "react-dom": "^18.2.0",
     "react-icons": "^4.9.0",
+    "react-photo-album": "^2.2.2",
     "react-slick": "^0.29.0",
     "react-visibility-sensor": "^5.1.1",
     "slick-carousel": "^1.8.1"
