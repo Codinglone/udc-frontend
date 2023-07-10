@@ -17,7 +17,7 @@ const Description = () => {
       <div className="w-[44%] ml-16 my-7" id="about">
 
         <SectionTitle title="" titleText="WELCOME TO UDC!" />
-        <p className="my-5 leading-loose font-bold text-xl">
+        <p className="my-5 leading-loose text-justify text-xl">
         At Universal Design And Construction, Ltd., we understand that
         each client is unique and has distinct dreams and aspirations.
         We prioritize client collaboration and aim to create spaces that 
