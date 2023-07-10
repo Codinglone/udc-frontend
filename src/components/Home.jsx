@@ -3,9 +3,44 @@ import Status from "./Status";
 import Services from "./Services";
 import Portfolio from "./Portfolio";
 import Gallery from "./Gallery";
+import { PhotoAlbum } from "react-photo-album";
+import project from "../assets/project.jpg"
+import project2 from "../assets/project2.jpg"
+import project3 from "../assets/project3.jpg"
+import project4 from "../assets/project4.jpg"
+import project7 from "../assets/project7.jpg"
+import project5 from "../assets/project5.jpg"
+import project6 from "../assets/project6.jpg"
+import carousel3 from "../assets/carousel-3.jpg"
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();
+
+const photos = [
+   { src: project, width: 800, height: 600 },
+   { src: project2, width: 800, height: 600 },
+   { src: project3, width: 800, height: 600 },
+   { src: project4, width: 800, height: 600 },
+   { src: project7, width: 800, height: 600 },
+   { src: carousel3, width: 800, height: 600 },
+   { src: project5, width: 800, height: 600 },
+   { src: project6, width: 800, height: 600 },
+   { src: carousel3, width: 800, height: 600 },
+   { src: project5, width: 800, height: 600 },
+   { src: project6, width: 800, height: 600 },
+   { src: carousel3, width: 800, height: 600 },
+   { src: project5, width: 800, height: 600 },
+   { src: project6, width: 800, height: 600 },
+   { src: carousel3, width: 800, height: 600 },
+   { src: project5, width: 800, height: 600 },
+   { src: project6, width: 800, height: 600 },
+   { src: carousel3, width: 800, height: 600 },
+   { src: project5, width: 800, height: 600 },
+   { src: project6, width: 800, height: 600 },
+   { src: carousel3, width: 800, height: 600 },
+   { src: project5, width: 800, height: 600 },
+   { src: project6, width: 800, height: 600 },
+]
 
 function Home() {
   return (
@@ -63,7 +98,7 @@ function Home() {
 
         <Portfolio />
         {/* <Gallery />  */}
-        <div
+        {/* <div
           className="my-12 grid grid-cols-3"
           data-aos="fade-up"
           data-aos-duration={1500}
@@ -76,7 +111,8 @@ function Home() {
           <img src="src/assets/carousel-3.jpg" alt="" className="" />
           <img src="src/assets/project5.jpg" alt="" className="" />
           <img src="src/assets/project6.jpg" alt="" className="" />
-        </div>
+        </div> */}
+        <PhotoAlbum layout="columns" photos={photos} />
         <div></div>
         <Status />
       </main>
