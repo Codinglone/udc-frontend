@@ -24,12 +24,7 @@ const Description = () => {
         truly reflect their vision. By engaging in open and transparent 
         communication, we ensure that our clients' needs are at the forefront
         of every decision.
-        With a team of highly skilled architects, engineers, and construction
-        professionals, Universal Design And Construction Ltd, brings together
-        a wealth of expertise and experience to create stunning, functional, and
-        sustainabvle structures. By engaging in open and transparent 
-        communication, we ensure that our clients' needs are at the forefront
-        of every decision.
+
         </p>
       </div>
     </div>
