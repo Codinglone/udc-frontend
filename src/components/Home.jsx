@@ -1,40 +1,70 @@
-import Carousel from "./Carousel"
 import Description from "./Description"
 import Status from "./Status"
 import Services from "./Services"
-import ServicesTab from "./ServicesTab"
 import Portfolio from "./Portfolio"
 import Gallery from "./Gallery"
-import Partners from "./Partners"
-import PartnersTitle from "./PartnersTitle"
-import TeamTitle from "./TeamTitle"
-import Team from "./Team"
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 
 function Home() {
 
   return (
     <>
     <main className=" overflow-hidden bg-gradient-to-r from-indigo-50">
-    <div className='grid justify-center items-center'>
-        <div className="bg-gray-800 absolute z-50 opacity-10 w-full h-[80vh]"></div>
+    <div className='grid justify-start items-start'>
+        <div className="bg-gray-800 absolute z-50 opacity-10 w-full h-[70vh]"></div>
         <img
           src="src/assets/PROJECT6.jpg"
-          className="max-h-[80vh] object-cover min-w-[99vw]"
+          className="max-h-[70vh] object-cover min-w-[99vw]"
         />
-       <h1 className="absolute font-extrabold font-sans lg:px-[12vw]  text-white text-7xl z-50">
-      THE ROAD TO SUCCESS<br /> IS ALWAYS UNDER<br /> CONSTUCTION!</h1>
+        
+       <h1 className="absolute font-extrabold font-sans lg:px-[3vw] text-white text-8xl z-50 py-20">
+      UDC LTD</h1>
+      <p className="absolute font-extrabold font-sans lg:px-[3vw] text-white text-6xl z-50 py-48">
+         ENGINEERING <br /> WE LEAD!</p>
+         <div className="absolute font-extrabold font-sans lg:px-[3vw] text-xl z-50 py-96">
+         <button className="bg-blue-800 p-4 text-[gold]  rounded-md font-bold hover:text-blue-800 hover:bg-[gold] hover:border-[gold]">
+            Book an appoint</button>
+            </div>
       </div>
-    {/* <Carousel /> */}
+
      <Description />
-     <Services />
-     <ServicesTab />
+      <Services />
+   
+     <div className="ml-40 gap-x-8 gap-y-4 grid grid-rows-2 grid-flow-col" id='servicesInfo' data-aos="fade-up"
+    data-aos-duration={1500}>
+      <h1 className="font-extrabold font-sans text-lg">Architectural & Interior Design</h1>
+      <p className="w-1/2 font-bold text-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima consequuntur, rem,
+         repudiandaeiditate illo accusantium totam.</p>
+      <h1 className="font-extrabold font-sans text-lg">Civil Engineering</h1>
+      <p className="font-bold text-lg w-1/2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima consequuntur, rem,
+         repudiandaeiditate illo accusantium totam.</p>
+      <h1 className="font-extrabold font-sans text-lg">Cost Estimation & Quality Surveying</h1>
+      <p className="w-1/2 font-bold text-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima consequuntur, rem,
+         repudiandaeiditate illo accusantium totam.</p>
+      <h1 className="font-extrabold font-sans text-lg">Landing Surveying</h1>
+      <p className="w-1/2 font-bold text-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima consequuntur, rem,
+         repudiandaeiditate illo accusantium totam.</p>
+      </div>
+      
      <Portfolio />
-     <Gallery />
-     {/* <PartnersTitle />
-     <Partners /> */}
-     <TeamTitle />
-     <Team />
+    {/* <Gallery />  */}
+    <div className="my-12 grid grid-cols-3" data-aos="fade-up"
+    data-aos-duration={1500}>
+      <img src="src/assets/project.jpg" alt="" className=""/>
+      <img src="src/assets/project2.jpg" alt="" className=""/>
+      <img src="src/assets/project3.jpg" alt="" className=""/>
+      <img src="src/assets/project4.jpg" alt="" className=""/>
+      <img src="src/assets/project7.jpg" alt="" className=""/>
+      <img src="src/assets/carousel-3.jpg" alt="" className=""/>
+      <img src="src/assets/project5.jpg" alt="" className=""/>
+      <img src="src/assets/project6.jpg" alt="" className=""/>
+     
+    </div>
+     <div>
+
+     </div>
      <Status />
     </main>
     </>

@@ -99,7 +99,7 @@ const Gallery = () => {
   return (
     <>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 shadow-lg w-[80vw] mx-[10%] my-[10%] py-4 px-4" data-aos="fade-up"
-    data-aos-duration={1500}>
+    data-aos-duration={2000}>
         {projects.map((project) => (
           <div
             key={project.id}
