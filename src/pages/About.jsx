@@ -1,43 +1,48 @@
 import React from 'react'
 import Description from '../components/Description'
 import SectionTitle from '../components/SectionTitle'
+import TeamTitle from '../components/TeamTitle'
+import Team from '../components/Team'
 
 const About = () => {
   return (
-    <div className='mt-40'>
-       {/* <div
-      className="my-16 mx-6 w-full flex justify-between"
-      data-aos="fade-up"
-      data-aos-duration={1500}
-    >
-      <div className="w-1/2">
-        <img src="src/assets/aboutuspage.jpg" alt="Photo" className="rounded-sm" />
+    <div>
+           <div className='grid justify-center items-center'>
+        <div className="bg-gray-800 absolute z-50 opacity-50 w-full h-[40vh]"></div>
+        <img
+          src="src/assets/project.jpg"
+          className="max-h-[40vh] object-cover min-w-[98vw]"
+        />
+       
       </div>
-      <div className="w-[44%] ml-8" id="about">
-        <SectionTitle title="" titleText="OUR MISSION" />
-        <p className="my-2 font-bold text-blue-900">
-        Our mission is to create exceptional spaces that embody
-         our clients' dreams through modern design, luxury, and 
-         sustainable practices. We prioritize collaboration, 
-         innovation, and quality to deliver outstanding residential,
-         commercial, and hospitality projects that exceed expectations.
-        </p>
-        <SectionTitle title="" titleText="OUR VISION" />
-        <p className="my-2 font-bold text-blue-900">
-        To be the leading provider of luxury design and construction 
-        services, integrating client aspirations, innovative architectural
-        concepts, and sustainable practices to create exceptional spaces 
-        that inspire and exceed expectations.
+      <div className='my-8 mx-6 flex'>
+      <div className='w-1/2 my-14 border-8 border-indigo-600'>
+        <img src="src/assets/project.jpg" alt="" className='max-h-[120vh] object-cover m-14'/>
+      </div>
+      <div className="w-[44%] ml-24 my-16 border-indigo-500" id="about">
+        <SectionTitle title="" titleText="Our Story"/>
+        <p className="my-6 leading-loose font-bold text-xl">
+        With a team of highly skilled architects, engineers, and construction 
+        professionals, Universal Design And Construction, Ltd. brings together a
+         wealth of expertise and experience to create stunning, functional, and
+          sustainable structures. Our team possesses a deep understanding of modern
+         architectural trends, incorporating luxurious aesthetics and green design principles into every project.<br /><br />
+            
+         At Universal Design And Construction, Ltd., we understand that each client is
+          unique and has distinct dreams and aspirations. We prioritize client collaboration
+           and aim to create spaces that truly reflect their vision. By engaging in open and
+            transparent communication, we ensure that our clients' needs are at the forefront of every decision. <br />
         </p>
       </div>
-    </div> */}
-        {/* <SectionTitle title="" titleText="OUR VALUES" />
-        <p className="my-2 font-bold text-blue-900">
-          At Universal Design and Construction Ltd, we specialize in creating
-          innovative and transformative spaces that meet the unique needs of our
-          clients.
-        </p> */}
-        <Description />
+      </div>
+       <div className='bg-blue-900 w-full h-96'>
+       <h1>Mission</h1>
+        <p></p>
+       </div>
+        <div>
+        <TeamTitle />
+        <Team />
+        </div>
     </div>
     
   )
