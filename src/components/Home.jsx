@@ -2,7 +2,6 @@ import Description from "./Description";
 import Status from "./Status";
 import Services from "./Services";
 import Portfolio from "./Portfolio";
-import Gallery from "./Gallery";
 import { PhotoAlbum } from "react-photo-album";
 import project from "../assets/project.jpg"
 import project2 from "../assets/project2.jpg"
@@ -69,51 +68,39 @@ function Home() {
         <Description />
         <Services />
 
-        <div className="flex justify-between px-12">
+        <div className="flex justify-between px-20">
           <div>
             <h1 className="text-[20px] font-extrabold text-black uppercase pb-4">Architecture Design</h1>
             <p className="text-justify pr-28 text-gray-600">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-              officiis adipisci facere reprehenderit? Ad enim cumque corporis
-              est perspiciatis dolor!
+            The way we design does not follow a rigid formula or cookie cutter process. We question 
+            everything during the process and are always looking for better materials, methods and options.
             </p>
           </div>
           <div>
-            <h1 className="text-[20px] font-extrabold text-black uppercase pb-4">Architecture Design</h1>
+            <h1 className="text-[20px] font-extrabold text-black uppercase pb-4">Civil Engineering</h1>
             <p className="text-justify pr-28 text-gray-600">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-              officiis adipisci facere reprehenderit? Ad enim cumque corporis
-              est perspiciatis dolor!
+            With good engineering knowledge, we can create great structures that are stable and durable at 
+            the same time beautiful and inspiring.
             </p>
-          </div>
+          </div> 
           <div>
-            <h1 className="text-[20px] font-extrabold text-black uppercase pb-4">Architecture Design</h1>
+            <h1 className="text-[20px] font-extrabold text-black uppercase pb-4">Land Surveying</h1>
             <p className="text-justify pr-28 text-gray-600">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-              officiis adipisci facere reprehenderit? Ad enim cumque corporis
-              est perspiciatis dolor!
+            We seek to understand the nature of the terrain, form, topography to soil type and how buildings 
+            and environment can coexist together harmoniously.
             </p>
           </div>
+          {/* <div>
+            <h1 className="text-[20px] font-extrabold text-black uppercase pb-4">Cost Estimation & Quality Surveying</h1>
+            <p className="text-justify pr-28 text-gray-600">
+            We seek to understand the nature of the terrain, form, topography to soil type and how buildings 
+            and environment can coexist together harmoniously.
+            </p>
+          </div> */}
         </div>
 
         <Portfolio />
-        {/* <Gallery />  */}
-        {/* <div
-          className="my-12 grid grid-cols-3"
-          data-aos="fade-up"
-          data-aos-duration={1500}
-        >
-          <img src="src/assets/project.jpg" alt="" className="" />
-          <img src="src/assets/project2.jpg" alt="" className="" />
-          <img src="src/assets/project3.jpg" alt="" className="" />
-          <img src="src/assets/project4.jpg" alt="" className="" />
-          <img src="src/assets/project7.jpg" alt="" className="" />
-          <img src="src/assets/carousel-3.jpg" alt="" className="" />
-          <img src="src/assets/project5.jpg" alt="" className="" />
-          <img src="src/assets/project6.jpg" alt="" className="" />
-        </div> */}
         <PhotoAlbum layout="columns" photos={photos} />
-        <div></div>
         <Status />
       </main>
     </>

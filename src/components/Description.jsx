@@ -18,12 +18,12 @@ const Description = () => {
 
         <SectionTitle title="" titleText="WELCOME TO UDC!" />
         <p className="my-5 leading-loose text-justify text-xl">
-        At Universal Design And Construction, Ltd., we understand that
-        each client is unique and has distinct dreams and aspirations.
-        We prioritize client collaboration and aim to create spaces that 
-        truly reflect their vision. By engaging in open and transparent 
-        communication, we ensure that our clients' needs are at the forefront
-        of every decision.
+        As a company, we are dedicated to continuous improvement, staying abreast of industry advancements,
+         and embracing innovation. We foster a collaborative and inclusive work environment that encourages 
+         teamwork, creativity, and professional growth. Universal Design And Construction, Ltd. is proud to 
+         have established a strong reputation for excellence, integrity, and customer satisfaction. With a track 
+         record of successful projects, we have earned the trust of clients who seek exceptional design, meticulous
+          construction, and a partner who values their dreams.
 
         </p>
       </div>

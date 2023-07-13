@@ -11,8 +11,8 @@ const Team = () => {
         data-aos-duration={1500}
       >
         
-        <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-0 lg:px-6">
-          <div className="mx-auto max-w-screen-sm text-center mb-8"></div>
+        <div className="mx-auto max-w-screen-xl lg:py-2 lg:px-16">
+          <div className="mx-auto max-w-screen-sm text-center"></div>
           <div className="grid gap-6 mb-6 lg:mb-16 md:grid-cols-2">
             {/* Start */}
 
