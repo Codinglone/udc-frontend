@@ -15,7 +15,6 @@ AOS.init();
 import React, { useState } from 'react';
 
 const Gallery = () => {
-  // Sample project data
   const projects = [
     {
       id: 1,

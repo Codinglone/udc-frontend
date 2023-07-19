@@ -22,7 +22,6 @@ const Partners = () => {
       logo: 'https://upload.wikimedia.org/wikipedia/de/thumb/a/a4/FA_Ruanda.svg/640px-FA_Ruanda.svg.png',
       website: 'https://www.partner2.com',
     },
-    // Add more partners as needed
   ];
 
   const openWebsite = (website) => {

@@ -97,21 +97,6 @@ function Home() {
         </div>
 
         <Portfolio />
-        {/* <Gallery />  */}
-        {/* <div
-          className="my-12 grid grid-cols-3"
-          data-aos="fade-up"
-          data-aos-duration={1500}
-        >
-          <img src="src/assets/project.jpg" alt="" className="" />
-          <img src="src/assets/project2.jpg" alt="" className="" />
-          <img src="src/assets/project3.jpg" alt="" className="" />
-          <img src="src/assets/project4.jpg" alt="" className="" />
-          <img src="src/assets/project7.jpg" alt="" className="" />
-          <img src="src/assets/carousel-3.jpg" alt="" className="" />
-          <img src="src/assets/project5.jpg" alt="" className="" />
-          <img src="src/assets/project6.jpg" alt="" className="" />
-        </div> */}
         <PhotoAlbum layout="columns" photos={photos} />
         <div></div>
         <Status />
