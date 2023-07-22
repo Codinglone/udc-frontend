@@ -1,6 +1,5 @@
 import React from 'react'
-import Services from '../components/Services'
-import ServicesTab from '../components/ServicesTab'
+import NewServices from '../components/NewServices'
 import project7 from '../assets/project7.jpg'
 
 const ServicesPage = () => {
@@ -18,8 +17,7 @@ const ServicesPage = () => {
         >
           <h1 className='lg:text-7xl text-white text-center font-bold lg:pl-24 lg:py-16 z-20'>Services</h1>
         </div>
-         <div className='grid justify-center items-center'>
-      </div>
+      <NewServices />
     </>
   )
 }
