@@ -80,7 +80,7 @@ function Home() {
             <h1 className="text-[20px] font-extrabold text-black uppercase pb-4">Civil Engineering</h1>
             <p className="text-justify pr-28 text-gray-600">
             With good engineering knowledge, we can create great structures that are stable and durable at 
-            the same time beautiful and inspiring.
+            the same time beautiful and truly inspiring.
             </p>
           </div> 
           <div>
