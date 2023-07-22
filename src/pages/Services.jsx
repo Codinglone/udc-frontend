@@ -17,7 +17,9 @@ const ServicesPage = () => {
         >
           <h1 className='lg:text-7xl text-white text-center font-bold lg:pl-24 lg:py-16 z-20'>Services</h1>
         </div>
-      <NewServices />
+      <NewServices imgDir={'left'} title={'Civil Engineering'} />
+      <NewServices imgDir={'right'} title={'Land Surveying'} />
+      <NewServices imgDir={'left'} title={'Architectural Design'} />
     </>
   )
 }
