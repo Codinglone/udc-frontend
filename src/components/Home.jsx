@@ -44,7 +44,7 @@ const photos = [
 function Home() {
   return (
     <>
-      <main className="overflow-hidden">
+      <main className="overflow-hidden mt-44">
         <div className="grid justify-start items-start">
           <div className="bg-gray-800 absolute z-50 opacity-10 w-full h-[70vh]"></div>
           <img
