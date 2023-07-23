@@ -6,7 +6,7 @@ const Team = () => {
   return (
     <>
       <section
-        className="bg-gradient-to-r from-indigo-50 dark:bg-gray-900"
+        className="dark:bg-gray-900"
         data-aos="fade-up"
         data-aos-duration={1500}
       >

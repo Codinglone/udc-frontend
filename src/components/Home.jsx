@@ -49,17 +49,17 @@ function Home() {
           <div className="bg-gray-800 absolute z-50 opacity-10 w-full h-[70vh]"></div>
           <img
             src="src/assets/PROJECT6.jpg"
-            className="max-h-[70vh] object-cover min-w-[99vw]"
+            className="max-h-[76vh] object-cover min-w-[99vw]"
           />
 
-          <h1 className="absolute font-extrabold font-sans lg:px-[3vw] text-white text-7xl z-50 py-24">
+          <h1 className="absolute font-extrabold font-sans lg:px-[3vw] text-white text-6xl z-50 py-24 tracking-widest">
             UDC LTD
           </h1>
-          <p className="absolute font-extrabold font-sans lg:px-[3vw] text-white text-6xl z-50 py-48">
+          <p className="absolute font-extrabold font-sans lg:px-[3vw] text-white text-6xl z-50 py-44 tracking-widest">
             ENGINEERING <br /> WE LEAD!
           </p>
           <div className="absolute font-extrabold font-sans lg:px-[3vw] text-xl z-50 py-96">
-            <button className="bg-blue-800 p-4 text-[gold]  rounded-md font-bold hover:text-blue-800 hover:bg-[gold] hover:border-[gold]">
+            <button className="bg-blue-800 p-5 text-[gold]  rounded-sm font-bold hover:text-blue-800 hover:bg-[gold] hover:border-[gold]">
               Book an appoint
             </button>
           </div>
@@ -68,35 +68,36 @@ function Home() {
         <Description />
         <Services />
 
-        <div className="flex justify-between px-20">
+        <div className="flex justify-between px-10" id="servicedetails" data-aos="fade-up"
+      data-aos-duration={2000}>
           <div>
-            <h1 className="text-[20px] font-extrabold text-black uppercase pb-4">Architecture Design</h1>
-            <p className="text-justify pr-28 text-gray-600">
+            <h1 className="text-[20px] font-extrabold text-black uppercase pt-8 tracking-widest">Architecture Design</h1>
+            <p className="text-justify pr-16 text-gray-600 pt-4">
             The way we design does not follow a rigid formula or cookie cutter process. We question 
             everything during the process and are always looking for better materials, methods and options.
             </p>
           </div>
           <div>
-            <h1 className="text-[20px] font-extrabold text-black uppercase pb-4">Civil Engineering</h1>
-            <p className="text-justify pr-28 text-gray-600">
+            <h1 className="text-[20px] font-extrabold text-black uppercase pt-8 tracking-widest">Civil Engineering</h1>
+            <p className="text-justify pr-16 text-gray-600 pt-4">
             With good engineering knowledge, we can create great structures that are stable and durable at 
             the same time beautiful and inspiring.
             </p>
           </div> 
           <div>
-            <h1 className="text-[20px] font-extrabold text-black uppercase pb-4">Land Surveying</h1>
-            <p className="text-justify pr-28 text-gray-600">
+            <h1 className="text-[20px] font-extrabold text-black uppercase pt-8 tracking-widest">Land Surveying</h1>
+            <p className="text-justify pr-16 text-gray-600 pt-4">
             We seek to understand the nature of the terrain, form, topography to soil type and how buildings 
             and environment can coexist together harmoniously.
             </p>
           </div>
-          {/* <div>
-            <h1 className="text-[20px] font-extrabold text-black uppercase pb-4">Cost Estimation & Quality Surveying</h1>
-            <p className="text-justify pr-28 text-gray-600">
+          <div>
+            <h1 className="text-[20px] font-extrabold text-black uppercase tracking-widest">Cost Estimation & Quality Surveying</h1>
+            <p className="text-justify pr-6 text-gray-600 pt-4">
             We seek to understand the nature of the terrain, form, topography to soil type and how buildings 
             and environment can coexist together harmoniously.
             </p>
-          </div> */}
+          </div>
         </div>
 
         <Portfolio />

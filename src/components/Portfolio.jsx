@@ -7,7 +7,7 @@ const Portfolio = () => {
   return (
     <div className='flex justify-center my-16' id='services' data-aos="fade-up"
     data-aos-duration={1500}>
-        <SectionTitle title="" titleText="Portfolio" serviceCentered={true} />
+        <SectionTitle title="" titleText="Projects" serviceCentered={true} />
     </div>
   )
 }

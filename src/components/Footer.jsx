@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     
 <footer className="bg-gradient-to-r from-indigo-50 dark:bg-gray-900 border-t border-gray-200">
-    <div className="p-32 py-6">
+    <div className="p-40 py-6">
         <div className="flex justify-center items-center gap-16">
           <div className="mb-8 ml-24">
               <a href="/" className="flex items-center">
