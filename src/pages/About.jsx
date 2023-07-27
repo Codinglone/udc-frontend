@@ -9,7 +9,7 @@ AOS.init();
 
 const About = () => {
   return (
-    <div className='bg-gradient-to-r from-indigo-50'>
+    <div>
            <div className='grid justify-center items-center'>
         <div className="bg-gray-800 absolute z-50 opacity-30 w-full h-[35vh]"></div>
         <img

@@ -1,20 +1,27 @@
 import React from 'react'
-import Services from '../components/Services'
-import ServicesTab from '../components/ServicesTab'
+import NewServices from '../components/NewServices'
+import project7 from '../assets/project7.jpg'
 
 const ServicesPage = () => {
   return (
     <> 
-         <div className='grid justify-center items-center'>
-        <div className="bg-gray-800 absolute z-50 opacity-30 w-full h-[35vh]"></div>
-        <img
-          src="src/assets/project7.jpg"
-          className="max-h-[35vh] object-cover min-w-[98vw]"
-        />
-       
-      </div>
-        <Services />
-        <ServicesTab />
+            <div  
+            className='mt-44'
+          style={{
+            backgroundImage: `url(${project7})`,
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat',
+            backgroundPosition: 'center',
+            height: '30vh',
+            width: '100%',
+          
+          }}
+        >
+          <h1 className='lg:text-7xl text-white text-center font-bold lg:pl-24 lg:py-16 z-20'>Services</h1>
+        </div>
+      <NewServices imgDir={'left'} title={'Civil Engineering'} />
+      <NewServices imgDir={'right'} title={'Land Surveying'} />
+      <NewServices imgDir={'left'} title={'Architectural Design'} />
     </>
   )
 }

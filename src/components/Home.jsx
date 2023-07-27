@@ -44,7 +44,7 @@ const photos = [
 function Home() {
   return (
     <>
-      <main className="overflow-hidden">
+      <main className="overflow-hidden mt-44">
         <div className="grid justify-start items-start">
           <div className="bg-gray-800 absolute z-50 opacity-10 w-full h-[70vh]"></div>
           <img
@@ -81,7 +81,7 @@ function Home() {
             <h1 className="text-[20px] font-extrabold text-black uppercase pt-8 tracking-widest">Civil Engineering</h1>
             <p className="text-justify pr-16 text-gray-600 pt-4">
             With good engineering knowledge, we can create great structures that are stable and durable at 
-            the same time beautiful and inspiring.
+            the same time beautiful and truly inspiring.
             </p>
           </div> 
           <div>

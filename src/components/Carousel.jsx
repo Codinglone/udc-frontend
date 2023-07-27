@@ -21,7 +21,6 @@ const CarouselComponent = () => {
     <Slider {...settings} className="h-[70vh]">
       
       <div>
-        {/* <div className="bg-black absolute z-50 opacity-30 w-full h-[70vh]"></div> */}
         <img
           src={carousel2}
           className="my-8 max-h-[65vh] object-cover min-w-[10vw]"
@@ -29,7 +28,6 @@ const CarouselComponent = () => {
       
       </div>
       <div>
-        {/* <div className="bg-black absolute z-50 opacity-30 w-full h-[70vh]"></div> */}
         <img
           src={carousel3}
           className="my-8 max-h-[65vh] object-cover min-w-[10vw]"
@@ -37,7 +35,6 @@ const CarouselComponent = () => {
        
       </div>
       <div>
-        {/* <div className="bg-black absolute z-50 opacity-0 w-full h-[60vh]"></div> */}
         <img
           src={carousel1}
           className="my-8 max-h-[65vh] object-cover min-w-[10vw]"
@@ -45,7 +42,6 @@ const CarouselComponent = () => {
        
       </div>
       <div>
-        {/* <div className="bg-black absolute z-50 opacity-0 w-full h-[60vh]"></div> */}
         <img
           src={carousel4}
           className="my-8 max-h-[65vh] object-cover min-w-[10vw]"
