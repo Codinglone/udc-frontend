@@ -11,12 +11,15 @@ const About = () => {
   return (
     <div>
            <div className='grid justify-center items-center'>
-        <div className="bg-gray-800 absolute z-50 opacity-30 w-full h-[35vh]"></div>
+        <div className="absolute z-50 w-full h-[45vh]">
+        <h1 className="lg:text-7xl text-white text-center font-bold lg:pl-24 lg:py-56 z-20">
+          About Us
+        </h1>
+        </div>
         <img
           src="src/assets/project.jpg"
-          className="max-h-[35vh] object-cover min-w-[98vw]"
+          className="max-h-[50vh] object-cover min-w-[98vw]"
         />
-       
       </div>
       <div className='my- mx-6 flex' id='2aboutus' data-aos="fade-up"
     data-aos-duration={2000}>

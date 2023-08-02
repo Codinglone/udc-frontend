@@ -14,7 +14,7 @@ const Description = () => {
     >
   
       <CarouselComponent />
-      <div className="w-[44%] ml-16 my-7" id="about">
+      <div className="w-[44%] ml-16 my-14" id="about">
 
         <SectionTitle title="" titleText="WELCOME TO UDC!" />
         <p className="my-5 leading-loose text-justify text-xl">
