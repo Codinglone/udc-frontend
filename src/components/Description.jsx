@@ -8,13 +8,13 @@ AOS.init();
 const Description = () => {
   return (
     <div
-      className="my-6 mx-6 flex"
+      className="my- mx-6 flex"
       data-aos="fade-up"
       data-aos-duration={2000}
     >
   
       <CarouselComponent />
-      <div className="w-[44%] ml-16 my-7" id="about">
+      <div className="w-[44%] ml-16 my-14" id="about">
 
         <SectionTitle title="" titleText="WELCOME TO UDC!" />
         <p className="my-5 leading-loose text-justify text-xl">

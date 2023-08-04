@@ -9,16 +9,19 @@ AOS.init();
 
 const About = () => {
   return (
-    <div className='mt-44'>
+    <div>
            <div className='grid justify-center items-center'>
-        <div className="bg-gray-800 absolute z-50 opacity-30 w-full h-[35vh]"></div>
+        <div className="absolute z-50 w-full h-[45vh]">
+        <h1 className="lg:text-7xl text-white text-center font-bold lg:pl-24 lg:py-56 z-20">
+          About Us
+        </h1>
+        </div>
         <img
           src="src/assets/project.jpg"
-          className="max-h-[35vh] object-cover min-w-[98vw]"
+          className="max-h-[50vh] object-cover min-w-[98vw]"
         />
-       
       </div>
-      <div className='my-8 mx-6 flex' id='2aboutus' data-aos="fade-up"
+      <div className='my- mx-6 flex' id='2aboutus' data-aos="fade-up"
     data-aos-duration={2000}>
       <div className='w-1/2 my-24 border-4 border-blue-600'>
         <img src="src/assets/project.jpg" alt="" className='max-h-[120vh] object-cover m-12 pt-8'/>
@@ -89,7 +92,7 @@ const About = () => {
         </div>
         <div className="p-6 font-extrabold font-sans lg:px-[40vw] z-50" id='aboutusbtn' data-aos="fade-up"
     data-aos-duration={1500}>
-            <button className="bg-indigo-50 border-[gold] border p-5 text-xl text-[gold]  rounded-md font-bold hover:text-white hover:bg-[gold] hover:border-[gold]">
+            <button className="border-[gold] border p-5 text-xl text-[gold]  rounded-md font-bold hover:text-white hover:bg-[gold] hover:border-[gold]">
               Join Our Team
             </button>
           </div> 
