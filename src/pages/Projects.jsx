@@ -1,27 +1,74 @@
 import NewProjects from "../components/NewProjects";
 import project3 from "../assets/project3.jpg";
 import project7 from "../assets/project7.jpg";
+import homepage  from "../assets/homepage.jpg";
+import project from "../assets/project.jpg";
 import project5 from "../assets/project5.jpg"
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
+
 function Projects() {
   return (
     <>
       <div
-      className="mt-44"
+      className="mt-28 opacity-4"
         style={{
-          backgroundImage: `url(${project3})`,
+          backgroundImage: `url(${homepage})`,
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
-          height: "30vh",
+          height: "34vh",
           width: "100%",
         }}
       >
-        <h1 className="lg:text-7xl text-white text-center font-bold lg:pl-24 lg:py-16 z-20">
+        <h1 className="lg:text-7xl text-white text-center font-bold lg:pl-24 lg:py-28 z-20">
           Projects
         </h1>
       </div>
 
-      <div className="flex flex-wrap px-12 py-12">
+      <div className="flex flex-wrap px-12 py-2 justify-center items-center" id='project' data-aos="fade-up"
+    data-aos-duration={2000}>
+        <div className="shadow-lg w-1/3 pt-8">
+          <div>
+            <img src={project3} className="object-cover" alt="#" />
+          </div>
+          <div>
+            <h2 className="text-3xl text-gray-900 py-2 px-8">Sawa Citi supermarket</h2>
+            <p className="text-gray-800 text-justify px-8 pb-8">
+            “The stationary yacht” is our way of describing the building for the yacht envelope design. 
+            Its appearance is both stunning 
+            and eye-catching in a way that it will attract customers to the coolest looking supermarket in Kigali city.
+            </p>
+          </div>
+        </div>
+        <div className="shadow-xl w-1/3 pt-8">
+          <div>
+            <img src={project7} className="object-cover" alt="#" />
+          </div>
+          <div>
+            <h2 className="text-3xl text-gray-900 py-2 px-8">The dream sports complex</h2>
+            <p className="text-gray-800 text-justify px-8 pb-8">
+            We started working on a project that will see an abandoned sand quarry located in Kinyinya 
+            transformed into a world-class 
+            sporting and leisure venue with a school, rooftop running tracks, a hotel, private villas, 
+            and a large fish pond.
+            </p>
+          </div>
+        </div>
+        <div className="shadow-lg w-1/3 pt-8">
+          <div>
+            <img src={project5} className="object-cover" alt="#" />
+          </div>
+          <div>
+            <h2 className="text-3xl text-gray-900 py-2 px-8">The modern and luxurious villa</h2>
+            <p className="text-gray-800 text-justify px-8 pb-8">
+            The villa is designed on a spacious plot, fully maximized and functional with 4 self-contained bedrooms and 
+            dining with double volume in the
+             interior. The exterior has underground parking, a swimming pool, a bar, and great views near the Atlantic Ocean.
+            </p>
+          </div>
+        </div>
         <div className="shadow-lg w-1/3 pt-8">
           <div>
             <img src={project3} className="object-cover" alt="#" />
@@ -56,7 +103,7 @@ function Projects() {
         </div>
         <div className="shadow-lg w-1/3 pt-8">
           <div>
-            <img src={project5} className="object-cover" alt="#" />
+            <img src={project} className="object-cover" alt="#" />
           </div>
           <div>
             <h2 className="text-3xl text-gray-900 py-2 px-8">Stunning Building</h2>
