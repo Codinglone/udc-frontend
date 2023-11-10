@@ -1,4 +1,3 @@
-import carousel3 from "../assets/carousel-3.jpg";
 import SectionTitle from "./SectionTitle";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -14,7 +13,7 @@ const Description = () => {
     >
   
       <CarouselComponent />
-      <div className="w-[44%] ml-16 my-14" id="about">
+      <div className="w-[44%] ml-16 my-8" id="about">
 
         <SectionTitle title="" titleText="WELCOME TO UDC!" />
         <p className="my-5 leading-loose text-justify text-xl">

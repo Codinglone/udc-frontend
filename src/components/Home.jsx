@@ -46,29 +46,23 @@ function Home() {
     <>
       <main className="overflow-hidden mt-36" >
         <div className="grid justify-start items-start">
-          <div className="bg-gray-800 absolute z-50 opacity-10 w-full h-[70vh]"></div>
+          <div className="absolute z-50 opacity-10 w-full h-[70vh]"></div>
           <img
             src="src/assets/PROJECT6.jpg"
             className="max-h-[76vh] object-cover min-w-[99vw]"
           />
 
-          <h1 className="absolute font-extrabold font-sans lg:px-[6vw] text-white text-6xl z-50 py-24 tracking-widest">
+          {/* <h1 className="absolute font-extrabold font-sans lg:px-[6vw] text-white text-6xl z-50 py-24 tracking-widest">
             UDC LTD
-          </h1>
-          <p className="absolute font-extrabold font-sans lg:px-[6vw] text-white text-6xl z-50 py-44 tracking-widest">
+          </h1> */}
+          {/* <p className="absolute font-extrabold font-sans lg:px-[6vw] text-white text-6xl z-50 py-44 tracking-widest">
             ENGINEERING <br /> WE LEAD!
-          </p>
+          </p> */}
           <div className="absolute font-extrabold font-sans lg:px-[6vw] text-xl z-50 py-96">
             <button className="bg-blue-800 p-5 text-[gold]  rounded-sm font-bold hover:text-blue-800 hover:bg-[gold] hover:border-[gold]">
               Book an appoint
             </button>
           </div>
-          {/* <div className="absolute">
-            <p className="text-white">
-            UDC LTD <br />ENGINEERING WE LEAD!
-
-            </p>
-          </div> */}
         </div>
 
         <Description />

@@ -4,7 +4,7 @@ import Logo from "../assets/logo.png"
 const Footer = () => {
   return (
     
-<footer className="bg-gradient-to-r from-indigo-50 dark:bg-gray-900 border-t border-gray-200">
+<footer className="bg-gradient-to-r from-indigo-50 dark:bg-gray-900 border-t mt-12 border-gray-200">
     <div className="p-40 py-6">
         <div className="flex justify-center items-center gap-16">
           <div className="ml-24">
@@ -12,16 +12,16 @@ const Footer = () => {
               
               <ul className="grid gap-8 text-gray-800 dark:text-gray-400 text-xl font-bold">
                       <li className="">
-                          <a href="/" className="hover:underline">Phone: +250785540475</a>
+                          <a href="/" className="hover:underline">Phone: +250-780-242-519</a>
                       </li>
                       <li classNameName=''>
                           <a href="/" className="hover:underline">E-mail: universaldesignandcons@gmail.com</a>
                       </li>
                       <li className="">
-                          <a href="/" className="hover:underline">Whatsapp: +250785540475</a>
+                          <a href="/" className="hover:underline">Whatsapp: +250-780-242-519</a>
                       </li>
                       <li classNameName=''>
-                          <a href="/" className="hover:underline">Location: KK 56 RD, KIGALI - KICUKIRO</a>
+                          <a href="/" className="hover:underline">Location: 190 KK 15 Rd, Kigali</a>
                       </li>
                     
                   </ul>

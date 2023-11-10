@@ -4,16 +4,16 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <nav className="bg-gradient-to-r from-indigo-50 shadow-xl md:pb-6 w-full" style={{position: 'fixed', top: 0, zIndex: 100, backgroundColor: 'white'}}>
-      <div className="nav-menu p-12 flex items-center w-full">
+      <div className="nav-menu p-12 flex items-center w-full overflow-hidden">
         <div className="menus flex w-full">
           <div
             id="brand"
-            className="absolute top-0 left-0 w-1/5 flex px- cursor-pointer"
+            className="fixed top-0 left-0 w-1/5 flex cursor-pointer"
           >
             <img
               src={logo}
               className="object-contain md:max-w-[49%] bg-wite"
-              alt=""
+              alt="logo"
             />
             <i className="font-bold text-blue-700 text-sm py-12">
               UNIVERSAL DESIGN AND CONSTRUCTION <br /> LTD
