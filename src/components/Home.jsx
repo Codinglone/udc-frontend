@@ -51,13 +51,6 @@ function Home() {
             src="src/assets/PROJECT6.jpg"
             className="max-h-[76vh] object-cover min-w-[99vw]"
           />
-
-          {/* <h1 className="absolute font-extrabold font-sans lg:px-[6vw] text-white text-6xl z-50 py-24 tracking-widest">
-            UDC LTD
-          </h1> */}
-          {/* <p className="absolute font-extrabold font-sans lg:px-[6vw] text-white text-6xl z-50 py-44 tracking-widest">
-            ENGINEERING <br /> WE LEAD!
-          </p> */}
           <div className="absolute font-extrabold font-sans lg:px-[6vw] text-xl z-50 py-96">
             <button className="bg-blue-800 p-5 text-[gold]  rounded-sm font-bold hover:text-blue-800 hover:bg-[gold] hover:border-[gold]">
               Book an appoint

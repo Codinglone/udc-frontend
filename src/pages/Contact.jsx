@@ -27,7 +27,7 @@ const Contact = () => {
             CALL US ON
             <br />
             <span className="text-white text-md dark:text-gray-400 text-2xl font-bold">
-              +250785540475
+              +250-780-242-519
             </span>
           </h1>
           <h1 className="mt-20 lg:px-[8vw] text-white text-2xl font-extrabold">
@@ -98,7 +98,7 @@ const Contact = () => {
             <br />
             <span className="dark:text-gray-400 font-bold text-2xl">
               {" "}
-              KK 56 RD, KICUKIRO - KAGARAMA
+              190 KK 15 Rd, Kigali
             </span>
           </h1>
         </div>
