@@ -25,7 +25,7 @@ const About = () => {
       <div className='my- mx-6 flex' id='2aboutus' data-aos="fade-up"
     data-aos-duration={2000}>
       <div className='w-1/2 my-24 border-4 border-blue-600'>
-        <img src="src/assets/project.jpg" alt="" className='max-h-[120vh] object-cover m-12 pt-8'/>
+        <img src={project} alt="project" className='max-h-[120vh] object-cover m-12 pt-8'/>
       </div>
       <div className="w-[44%] ml-24 my-16 border-indigo-500" id="about">
         <SectionTitle title="" titleText="About Us"/>
