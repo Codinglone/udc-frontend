@@ -1,6 +1,7 @@
 import React from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import project2 from "../assets/project2.jpg"
 AOS.init();
 
 const Contact = () => {
@@ -13,7 +14,7 @@ const Contact = () => {
       >
         <div className="bg-gray-800 absolute z-50"></div>
         <img
-          src="src/assets/project2.jpg"
+          src={project2}
           className="h-[1000px] object-cover min-w-[98vw]"
         />
       </div>

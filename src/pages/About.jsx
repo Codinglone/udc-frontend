@@ -5,6 +5,7 @@ import TeamTitle from '../components/TeamTitle'
 import Team from '../components/Team'
 import AOS from "aos";
 import "aos/dist/aos.css";
+import project from "../assets/project.jpg"
 AOS.init();
 
 const About = () => {
@@ -17,7 +18,7 @@ const About = () => {
         </h1>
         </div>
         <img
-          src="src/assets/project.jpg"
+          src={project}
           className="max-h-[50vh] object-cover min-w-[98vw]"
         />
       </div>
