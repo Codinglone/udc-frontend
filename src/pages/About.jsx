@@ -22,7 +22,7 @@ const About = () => {
           className="max-h-[50vh] object-cover min-w-[98vw]"
         />
       </div>
-      <div className='my- mx-6 flex' id='2aboutus' data-aos="fade-up"
+      <div className='mx-6 flex' id='2aboutus' data-aos="fade-up"
     data-aos-duration={2000}>
       <div className='w-1/2 my-24 border-4 border-blue-600'>
         <img src={project} alt="project" className='max-h-[120vh] object-cover m-12 pt-8'/>
@@ -91,12 +91,6 @@ const About = () => {
       principles into every project.</p>
         <Team />
         </div>
-        {/* <div className="p-6 font-extrabold font-sans lg:px-[40vw] z-50" id='aboutusbtn' data-aos="fade-up"
-    data-aos-duration={1500}>
-            <button className="border-[gold] border p-5 text-xl text-[gold]  rounded-md font-bold hover:text-white hover:bg-[gold] hover:border-[gold]">
-              Join Our Team
-            </button>
-          </div>  */}
     </div>
     
   )
