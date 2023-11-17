@@ -6,7 +6,7 @@ const Status = () => {
   AOS.init();
   return (
     <>
-      <div className="my-12 w-full flex" data-aos="fade-up" data-aos-duration="2000">
+      <div className="my-12 w-full hidden lg:flex" data-aos="fade-up" data-aos-duration="2000">
         <div className="w-1/2 bg-blue-900 flex justify-between px-4 py-8">
           <div>
             <CountUp redraw={true} end={100} duration={10}>

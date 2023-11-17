@@ -17,7 +17,7 @@ const CarouselComponent = () => {
     autoplay: true,
   };
   return (
-    <div className="w-1/2">
+    <div className="lg:w-1/2 w-full">
     <Slider {...settings} className="h-[70vh]">
       
       <div>

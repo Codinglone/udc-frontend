@@ -49,46 +49,46 @@ function Home() {
         <Services />
 
         <div
-          className="flex justify-between px-10"
+          className="flex lg:flex-row lg:justify-between lg:flex-nowrap lg:px-10 justify-between w-full flex-wrap"
           id="servicedetails"
           data-aos="fade-up"
           data-aos-duration={2000}
         >
           <div>
-            <h1 className="text-[20px] font-extrabold text-black uppercase pt-8 tracking-widest">
+            <h1 className="text-[20px] font-extrabold text-black uppercase pt-8 lg:text-left text-center tracking-widest">
               Architecture Design
             </h1>
-            <p className="text-justify pr-16 pt-4">
+            <p className="text-justify lg:text-left text-center lg:pr-16 px-4 lg:px-0 pt-4">
               The way we design does not follow a rigid formula or cookie cutter
               process. We question everything during the process and are always
               looking for better materials, methods and options.
             </p>
           </div>
           <div>
-            <h1 className="text-[20px] font-extrabold text-black uppercase pt-8 tracking-widest">
+            <h1 className="text-[20px] font-extrabold text-black uppercase pt-8 lg:text-left text-center tracking-widest">
               Civil Engineering
             </h1>
-            <p className="text-justify pr-16 pt-4">
+            <p className="text-justify lg:text-left text-center lg:pr-16 px-4 lg:px-0 pt-4">
               With good engineering knowledge, we can create great structures
               that are stable and durable at the same time beautiful and truly
               inspiring.
             </p>
           </div>
           <div>
-            <h1 className="text-[20px] font-extrabold text-black uppercase pt-8 tracking-widest">
+            <h1 className="text-[20px] font-extrabold text-black uppercase pt-8 lg:text-left text-center tracking-widest">
               Land Surveying
             </h1>
-            <p className="text-justify pr-16 pt-4">
+            <p className="text-justify lg:text-left text-center lg:pr-16 px-4 lg:px-0 pt-4">
               We seek to understand the nature of the terrain, form, topography
               to soil type and how buildings and environment can coexist
               together harmoniously.
             </p>
           </div>
           <div>
-            <h1 className="text-[20px] font-extrabold text-black uppercase pt-8 tracking-widest">
+            <h1 className="text-[20px] font-extrabold text-black uppercase pt-8 lg:text-left text-center tracking-widest">
               Cost Estimation
             </h1>
-            <p className="text-justify pr-16 pt-4">
+            <p className="text-justify lg:text-left text-center lg:pr-16 px-4 lg:px-0 pt-4">
               We seek to understand the nature of the terrain, form, topography
               to soil type and how buildings and environment can coexist
               together harmoniously.
