@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="bg-gradient-to-r from-indigo-50 shadow-xl md:pb-6 w-full" style={{position: 'fixed', top: 0, zIndex: 100, backgroundColor: 'white'}}>
+    <nav className="bg-white shadow-xl md:pb-6 w-full" style={{position: 'fixed', top: 0, zIndex: 100, backgroundColor: 'white'}}>
       <div className="nav-menu p-12 flex items-center w-full overflow-hidden">
         <div className="menus flex w-full">
           <div
@@ -19,7 +19,7 @@ const Navbar = () => {
               UNIVERSAL DESIGN AND CONSTRUCTION <br /> LTD
             </i>
           </div>
-          <div className="flex gap-20 justify-between lg:ml-96">
+          <div className="flex gap-20 justify-between items-center lg:ml-96">
             <Link to="/" className="active text-blue-700 hover:text-[gold] font-bold">
               HOME
             </Link>

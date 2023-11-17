@@ -91,12 +91,12 @@ const About = () => {
       principles into every project.</p>
         <Team />
         </div>
-        <div className="p-6 font-extrabold font-sans lg:px-[40vw] z-50" id='aboutusbtn' data-aos="fade-up"
+        {/* <div className="p-6 font-extrabold font-sans lg:px-[40vw] z-50" id='aboutusbtn' data-aos="fade-up"
     data-aos-duration={1500}>
             <button className="border-[gold] border p-5 text-xl text-[gold]  rounded-md font-bold hover:text-white hover:bg-[gold] hover:border-[gold]">
               Join Our Team
             </button>
-          </div> 
+          </div>  */}
     </div>
     
   )

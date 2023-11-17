@@ -16,7 +16,7 @@ const Team = () => {
           <div className="grid gap-6 mb-6 lg:mb-16 md:grid-cols-2">
             {/* Start */}
 
-            <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
+            <div className="items-center bg-white rounded-lg shadow-lg sm:flex dark:bg-gray-800 dark:border-gray-700">
               <a
                 href="#"
                 className="w-[260px] max-w-[50%] h-[240px] overflow-hidden"
@@ -95,7 +95,7 @@ const Team = () => {
               </div>
             </div>
 
-            <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
+            <div className="items-center bg-white rounded-lg shadow-lg sm:flex dark:bg-gray-800 dark:border-gray-700">
               <a
                 href="#"
                 className="w-[260px] max-w-[50%] h-[240px] overflow-hidden"
@@ -175,7 +175,7 @@ const Team = () => {
             </div>
 
             {/* End */}
-            <div className="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
+            <div className="items-center bg-white rounded-lg shadow-lg sm:flex dark:bg-gray-800 dark:border-gray-700">
               <a
                 href="#"
                 className="w-[260px] max-w-[50%] h-[240px] overflow-hidden"
