@@ -12,13 +12,12 @@ function Projects() {
   return (
     <>
       <div
-        className="mt-28 opacity-4"
+        className="mt-28 opacity-4 lg:h-[34vh] h-12"
         style={{
           backgroundImage: `url(${homepage})`,
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
-          height: "34vh",
           width: "100%",
         }}
       >
@@ -33,7 +32,7 @@ function Projects() {
         data-aos="fade-up"
         data-aos-duration={2000}
       >
-        <div className="shadow-lg max-h-[480px] w-[30vw] mt-8 overflow-hidden">
+        <div className="shadow-lg max-h-[480px] lg:w-[30vw] w-full mt-8 overflow-hidden">
           <div>
             <img
               src={project3}
@@ -53,7 +52,7 @@ function Projects() {
             </p>
           </div>
         </div>
-        <div className="shadow-lg max-h-[480px] w-[30vw] mt-8 overflow-hidden">
+        <div className="shadow-lg max-h-[480px]  lg:w-[30vw] w-full mt-8 overflow-hidden">
           <div>
             <img
               src={project7}
@@ -73,7 +72,7 @@ function Projects() {
             </p>
           </div>
         </div>
-        <div className="shadow-lg max-h-[480px] w-[30vw] mt-8 overflow-hidden">
+        <div className="shadow-lg max-h-[480px]  lg:w-[30vw] w-full mt-8 overflow-hidden">
           <div>
             <img
               src={project5}
@@ -93,7 +92,7 @@ function Projects() {
             </p>
           </div>
         </div>
-        <div className="shadow-lg max-h-[480px] w-[30vw] mt-8 overflow-hidden">
+        <div className="shadow-lg max-h-[480px]  lg:w-[30vw] w-full mt-8 overflow-hidden">
           <div>
             <img
               src={project3}
@@ -111,7 +110,7 @@ function Projects() {
             </p>
           </div>
         </div>
-        <div className="shadow-lg max-h-[480px] w-[30vw] mt-8 overflow-hidden">
+        <div className="shadow-lg max-h-[480px]  lg:w-[30vw] w-full mt-8 overflow-hidden">
           <div>
             <img
               src={project7}
@@ -129,7 +128,7 @@ function Projects() {
             </p>
           </div>
         </div>
-        <div className="shadow-lg max-h-[480px] w-[30vw] mt-8 overflow-hidden">
+        <div className="shadow-lg max-h-[480px]  lg:w-[30vw] w-full mt-8 overflow-hidden">
           <div>
             <img
               src={project}
