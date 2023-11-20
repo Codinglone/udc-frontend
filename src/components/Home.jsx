@@ -20,26 +20,10 @@ const photos = [
   { src: project, width: 800, height: 600 },
   { src: project2, width: 800, height: 600 },
   { src: project3, width: 800, height: 600 },
-  // { src: project4, width: 800, height: 600 },
-  // { src: project7, width: 800, height: 600 },
-  // { src: carousel3, width: 800, height: 600 },
-  // { src: project5, width: 800, height: 600 },
-  // { src: project6, width: 800, height: 600 },
-  // { src: carousel3, width: 800, height: 600 },
-  // { src: project5, width: 800, height: 600 },
-  // { src: project6, width: 800, height: 600 },
-  // { src: carousel3, width: 800, height: 600 },
-  // { src: project5, width: 800, height: 600 },
-  // { src: project6, width: 800, height: 600 },
-  // { src: carousel3, width: 800, height: 600 },
-  // { src: project5, width: 800, height: 600 },
-  // { src: project6, width: 800, height: 600 },
-  // { src: carousel3, width: 800, height: 600 },
-  // { src: project5, width: 800, height: 600 },
-  // { src: project6, width: 800, height: 600 },
-  // { src: carousel3, width: 800, height: 600 },
-  // { src: project5, width: 800, height: 600 },
-  // { src: project6, width: 800, height: 600 },
+  { src: project4, width: 800, height: 600 },
+  { src: project7, width: 800, height: 600 },
+  { src: project6, width: 800, height: 600 },
+
 ];
 
 function Home() {
@@ -101,7 +85,13 @@ function Home() {
         </div>
 
         <Portfolio />
-        <PhotoAlbum layout="columns" photos={photos} />
+        <div className="w-full flex flex-col lg:flex-row lg:px-6 lg:flex-wrap lg:justify-between">
+          {
+            photos.map(photo => (
+              <img src={photo.src} className="w-full lg:w-[31vw] my-4 lg:my-2 h-[70vh] object-cover" alt="album-photo" />
+            ))
+          }
+        </div>
         <Status />
       </main>
     </>

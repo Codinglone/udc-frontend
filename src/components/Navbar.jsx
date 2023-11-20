@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import logo from "../assets/logo.png";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
@@ -29,34 +29,38 @@ const Navbar = () => {
               </i>
             </div>
             <div className="flex gap-20 justify-between items-center lg:ml-96">
-              <Link to="/" className="active text-blue-700 hover:text-[gold] font-medium">
+              <NavLink to="/" exact activeClassName="text-[gold]" className="text-blue-700 hover:text-[gold] font-medium">
                 HOME
-              </Link>
-              <Link
+              </NavLink>
+              <NavLink
                 to="/about"
                 id="ABOUTUS"
+                activeClassName="text-[gold]"
                 className="font-medium text-blue-700  hover:text-[gold]"
               >
                 ABOUT US
-              </Link>
-              <Link
+              </NavLink>
+              <NavLink
                 to="/services"
+                activeClassName="text-[gold]"
                 className="font-medium text-blue-700  hover:text-[gold]"
               >
                 OUR SERVICES
-              </Link>
-              <Link
+              </NavLink>
+              <NavLink
                 to="/projects"
+                activeClassName="text-[gold]"
                 className="font-medium text-blue-700  hover:text-[gold]"
               >
                 PROJECTS
-              </Link>
-              <Link
+              </NavLink>
+              <NavLink
                 to="/contacts"
+                activeClassName="text-[gold]"
                 className="font-medium text-blue-700  hover:text-[gold]"
               >
                 CONTACT
-              </Link>
+              </NavLink>
             </div>
           </div>
         </div>
@@ -114,34 +118,38 @@ const Navbar = () => {
         </div>
         {isMobileNavOpen && (
           <div className="flex flex-col items-center w-full">
-            <Link to="/" className="text-blue-700 hover:text-[gold] font-medium mb-4">
+            <NavLink to="/" exact activeClassName="text-[gold]" className="text-blue-700 hover:text-[gold] font-medium mb-4">
               HOME
-            </Link>
-            <Link
+            </NavLink>
+            <NavLink
               to="/about"
               id="ABOUTUS"
+              activeClassName="text-[gold]"
               className="text-blue-700  hover:text-[gold] mb-4"
             >
               ABOUT US
-            </Link>
-            <Link
+            </NavLink>
+            <NavLink
               to="/services"
+              activeClassName="text-[gold]"
               className="text-blue-700  hover:text-[gold] mb-4"
             >
               OUR SERVICES
-            </Link>
-            <Link
+            </NavLink>
+            <NavLink
               to="/projects"
+              activeClassName="text-[gold]"
               className="text-blue-700  hover:text-[gold] mb-4"
             >
               PROJECTS
-            </Link>
-            <Link
+            </NavLink>
+            <NavLink
               to="/contacts"
+              activeClassName="text-[gold]"
               className="text-blue-700  hover:text-[gold] mb-4"
             >
               CONTACT
-            </Link>
+            </NavLink>
           </div>
         )}
       </nav>
@@ -150,3 +158,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
