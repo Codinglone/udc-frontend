@@ -18,7 +18,7 @@ const CarouselComponent = () => {
   };
   return (
     <div className="lg:w-1/2 w-full">
-    <Slider {...settings} className="h-[70vh]">
+    <Slider {...settings} className="lg:h-[70vh]">
       
       <div>
         <img
