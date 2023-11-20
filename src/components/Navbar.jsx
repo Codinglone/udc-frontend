@@ -24,36 +24,36 @@ const Navbar = () => {
                 className="object-contain md:max-w-[49%] bg-wite"
                 alt="logo"
               />
-              <i className="font-bold text-blue-700 text-sm py-12">
+              <i className="font-medium text-blue-700 text-sm py-12">
                 UNIVERSAL DESIGN AND CONSTRUCTION <br /> LTD
               </i>
             </div>
             <div className="flex gap-20 justify-between items-center lg:ml-96">
-              <Link to="/" className="active text-blue-700 hover:text-[gold] font-bold">
+              <Link to="/" className="active text-blue-700 hover:text-[gold] font-medium">
                 HOME
               </Link>
               <Link
                 to="/about"
                 id="ABOUTUS"
-                className="font-bold text-blue-700  hover:text-[gold]"
+                className="font-medium text-blue-700  hover:text-[gold]"
               >
                 ABOUT US
               </Link>
               <Link
                 to="/services"
-                className="font-bold text-blue-700  hover:text-[gold]"
+                className="font-medium text-blue-700  hover:text-[gold]"
               >
                 OUR SERVICES
               </Link>
               <Link
                 to="/projects"
-                className="font-bold text-blue-700  hover:text-[gold]"
+                className="font-medium text-blue-700  hover:text-[gold]"
               >
                 PROJECTS
               </Link>
               <Link
                 to="/contacts"
-                className="font-bold text-blue-700  hover:text-[gold]"
+                className="font-medium text-blue-700  hover:text-[gold]"
               >
                 CONTACT
               </Link>
@@ -114,7 +114,7 @@ const Navbar = () => {
         </div>
         {isMobileNavOpen && (
           <div className="flex flex-col items-center w-full">
-            <Link to="/" className="text-blue-700 hover:text-[gold] font-bold mb-4">
+            <Link to="/" className="text-blue-700 hover:text-[gold] font-medium mb-4">
               HOME
             </Link>
             <Link

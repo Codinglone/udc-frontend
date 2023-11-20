@@ -15,10 +15,10 @@ const NewServices = ({imgDir, title,content}) => {
       <div className="flex lg:flex-row flex-col lg:justify-between">
         
         <div className="flex flex-col lg:w-[45%] w-full">
-          <h1 className="lg:text-4xl text-2xl text-blue-700 font-bold uppercase">{title}</h1>
-          <p className="text-gray-900 text-justify pt-4 text-xl">{content}</p>
+          <h1 className="lg:text-4xl text-2xl text-blue-700 font-medium uppercase">{title}</h1>
+          <p className="text-[15.0385px] text-justify pt-4  text-[#777777]">{content}</p>
         </div>
-        <div className="lg:w-[45%] w-full border-4 border-blue-700 h-[23vh] h-[49vh]">
+        <div className="lg:w-[45%] w-full border-4 border-blue-700 h-[23vh] lg:h-[49vh]">
           <img src={project7} className="ml-[-40px] mt-[-40px] object-cover" />
         </div>
       </div>
@@ -29,8 +29,8 @@ const NewServices = ({imgDir, title,content}) => {
           <img src={project} className="lg:ml-[-40px] ml-[-20px] mt-[-40px] object-cover" />
         </div>
         <div className="flex flex-col lg:w-[45%] w-full">
-          <h1 className="lg:text-4xl text-2xl my-8 lg:mt-0 text-blue-700 font-bold uppercase">{title}</h1>
-          <p className="text-gray-900 text-justify pt-4 text-xl">{content}</p>
+          <h1 className="lg:text-4xl text-2xl my-8 lg:mt-0 text-blue-700 font-medium uppercase">{title}</h1>
+          <p className="text-[#777777] text-justify pt-4 text-[15.0385px]">{content}</p>
         </div>
       </div>
 

@@ -44,7 +44,7 @@ function Projects() {
             <h2 className="text-3xl text-gray-900 py-2 px-8">
               Sawa Citi supermarket
             </h2>
-            <p className="text-gray-800 text-justify px-8 pb-8">
+            <p className="text-[#777777] text-[15.0385px] text-justify px-8 pb-8">
               “The stationary yacht” is our way of describing the building for
               the yacht envelope design. Its appearance is both stunning and
               eye-catching in a way that it will attract customers to the
@@ -64,7 +64,7 @@ function Projects() {
             <h2 className="text-3xl text-gray-900 py-2 px-8">
               dream sports complex
             </h2>
-            <p className="text-gray-800 text-justify px-8 pb-8">
+            <p className="text-[#777777] text-[15.0385px] text-justify px-8 pb-8">
               We started working on a project that will see an abandoned sand
               quarry located in Kinyinya transformed into a world-class sporting
               and leisure venue with a school, rooftop running tracks, a hotel,
@@ -84,7 +84,7 @@ function Projects() {
             <h2 className="text-3xl text-gray-900 py-2 px-8">
               The modern villa
             </h2>
-            <p className="text-gray-800 text-justify px-8 pb-8">
+            <p className="text-[#777777] text-[15.0385px] text-justify px-8 pb-8">
               The villa is designed on a spacious plot, fully maximized and
               functional with 4 self-contained bedrooms and dining with double
               volume in the interior. The exterior has underground parking, a
@@ -102,7 +102,7 @@ function Projects() {
           </div>
           <div>
             <h2 className="text-3xl text-gray-900 py-2 px-8">Luxury Palace</h2>
-            <p className="text-gray-800 text-justify px-8 pb-8">
+            <p className="text-[#777777] text-[15.0385px] text-justify px-8 pb-8">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Inventore voluptate voluptates sed minus quod numquam doloribus
               eos autem recusandae? Optio, totam. Repudiandae quo inventore
@@ -120,7 +120,7 @@ function Projects() {
           </div>
           <div>
             <h2 className="text-3xl text-gray-900 py-2 px-8">Amazing Villa</h2>
-            <p className="text-gray-800 text-justify px-8 pb-8">
+            <p className="text-[#777777] text-[15.0385px] text-justify px-8 pb-8">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Inventore voluptate voluptates sed minus quod numquam doloribus
               eos autem recusandae? Optio, totam. Repudiandae quo inventore
@@ -140,7 +140,7 @@ function Projects() {
             <h2 className="text-3xl text-gray-900 py-2 px-8">
               Stunning Building
             </h2>
-            <p className="text-gray-800 text-justify px-8 pb-8">
+            <p className="text-[#777777] text-[15.0385px] text-justify px-8 pb-8">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Inventore voluptate voluptates sed minus quod numquam doloribus
               eos autem recusandae? Optio, totam. Repudiandae quo inventore
