@@ -20,7 +20,7 @@ const ServicesPage = () => {
           
           }}
         >
-          <h1 className='lg:text-7xl text-white lg:pt-16 text-center text-2xl font-bold lg:pl-24 z-20'>Services</h1>
+          <h1 className='lg:text-7xl text-white lg:pt-16 text-center text-2xl font-medium lg:pl-24 z-20'>Services</h1>
         </div>
       <NewServices imgDir={'left'} title={'Civil Engineering'} content={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, eligendi. Voluptatibus neque temporibus maxime, soluta nihil, ibusdam iste ipsum voluptates ut deleniti facilis! Tenetur maiores nisi possimus et facere perferendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quidem impedit, veniam nihil quisquam aliquam temporibus! Quas ratione consectetur molestias nulla asperiores perferendis reiciendis. Iste tempore dolores suscipit culpa pariatur.'}/>
       <NewServices imgDir={'right'} title={'Land Surveying'} content={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, eligendi. Voluptatibus neque temporibus maxime, soluta nihil, ibusdam iste ipsum voluptates ut deleniti facilis! Tenetur maiores nisi possimus et facere perferendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quidem impedit, veniam nihil quisquam aliquam temporibus! Quas ratione consectetur molestias nulla asperiores perferendis reiciendis. Iste tempore dolores suscipit culpa pariatur.'}/>

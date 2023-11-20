@@ -13,7 +13,7 @@ const About = () => {
     <div className='overflow-hidden'>
            <div className='grid justify-center items-center'>
         <div className="absolute z-50 w-full h-[45vh]">
-        <h1 className="lg:text-7xl text-white text-center font-medium lg:pl-24 lg:py-56 z-20">
+        <h1 className="lg:text-7xl text-white text-center font-medium lg:pl-24 lg:py-40 z-20">
           About Us
         </h1>
         </div>

@@ -21,7 +21,7 @@ function Projects() {
           width: "100%",
         }}
       >
-        <h1 className="lg:text-7xl text-white text-center font-bold lg:pl-24 lg:py-28 z-20">
+        <h1 className="lg:text-7xl text-white text-center font-medium lg:pl-24 lg:py-28 z-20">
           Projects
         </h1>
       </div>
