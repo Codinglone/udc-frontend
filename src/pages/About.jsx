@@ -67,7 +67,7 @@ const About = () => {
         </p>
       </div>
       <div className='lg:w-1/2 lg:ml-24 border-4 border-[gold]'>
-        <img src="src/assets/project.jpg" alt="" className='max-h-[120vh] object-cover m-10 pt-4'/>
+        <img src={project} alt="" className='max-h-[120vh] object-cover m-10 pt-4'/>
       </div>
       </div>
        <div className='lg:mx-auto lg:p-16 bg-blue-900 w-full lg:h-80'id='1aboutus' data-aos="fade-up"
