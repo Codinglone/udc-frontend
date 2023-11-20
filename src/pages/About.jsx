@@ -1,5 +1,4 @@
 import React from 'react'
-import Description from '../components/Description'
 import SectionTitle from '../components/SectionTitle'
 import TeamTitle from '../components/TeamTitle'
 import Team from '../components/Team'
@@ -12,24 +11,24 @@ const About = () => {
   return (
     <div className='overflow-hidden'>
            <div className='grid justify-center items-center'>
-        <div className="absolute z-50 w-full h-[45vh]">
+        <div className="absolute z-50 w-full pt-24 text-2xl lg:pt-0 font-bold text-white lg:h-[45vh]">
         <h1 className="lg:text-7xl text-white text-center font-medium lg:pl-24 lg:py-40 z-20">
           About Us
         </h1>
         </div>
         <img
           src={project}
-          className="max-h-[50vh] object-cover min-w-[98vw]"
+          className="max-h-[50vh] object-cover min-w-[100vw]"
         />
       </div>
-      <div className='mx-6 flex' id='2aboutus' data-aos="fade-up"
+      <div className='mx-6 flex flex-col lg:flex-row' id='2aboutus' data-aos="fade-up"
     data-aos-duration={2000}>
-      <div className='w-1/2 my-24 border-4 border-blue-600'>
+      <div className='lg:w-1/2 w-full my-6 lg:my-24 border-4 border-blue-600'>
         <img src={project} alt="project" className='max-h-[120vh] object-cover m-12 pt-8'/>
       </div>
-      <div className="w-[44%] ml-24 my-16 border-indigo-500" id="about">
-        <SectionTitle title="" titleText="About Us"/>
-        <p className="my-6 leading-loose  text-[15.0385px]  text-[#777777]">
+      <div className="lg:w-[44%] w-full lg:ml-24 lg:my-16 border-indigo-500" id="about">
+        <SectionTitle titleText="About Us"/>
+        <p className="lg:my-6 leading-loose  text-[15.0385px]  text-[#777777]">
         As a company, we are dedicated to continuous improvement, staying abreast of industry advancements,
          and embracing innovation. We foster a collaborative and inclusive work environment that encourages 
          teamwork, creativity, and professional growth. Universal Design And Construction, Ltd. is proud to 
@@ -47,9 +46,9 @@ const About = () => {
         </p>
       </div>
       </div>
-      <div className='my-8 mx-6 flex' id='3aboutus' data-aos="fade-up"
+      <div className='my-8 mx-6 flex flex-col lg:flex-row' id='3aboutus' data-aos="fade-up"
     data-aos-duration={2000}>
-        <div className="w-[42%] ml-5 my-18 border-indigo-500" id="about">
+        <div className="lg:w-[42%] w-full ml-5 my-18 border-indigo-500" id="about">
         
         <p className="my-6 leading-loose  text-[15.0385px] text-[#777777]">
        <i className='font-medium text-black'> Mission: </i>
@@ -67,11 +66,11 @@ const About = () => {
        buildings that contribute to a greener future. <br />
         </p>
       </div>
-      <div className='w-1/2 ml-24 border-4 border-[gold]'>
+      <div className='lg:w-1/2 lg:ml-24 border-4 border-[gold]'>
         <img src="src/assets/project.jpg" alt="" className='max-h-[120vh] object-cover m-10 pt-4'/>
       </div>
       </div>
-       <div className='mx-auto p-16 bg-blue-900 w-full h-80'id='1aboutus' data-aos="fade-up"
+       <div className='lg:mx-auto lg:p-16 bg-blue-900 w-full lg:h-80'id='1aboutus' data-aos="fade-up"
     data-aos-duration={1500}>
       <p className='font-medium text-white  text-[15.0385px]'>With a focus on quality, craftsmanship, and attention to detail, Universal Design And Construction, Ltd. consistently delivers projects of the highest standards.
          We employ the latest technologies and employ stringent quality control measures to ensure that every construction endeavor is completed to perfection.</p>
@@ -83,7 +82,7 @@ const About = () => {
        </div>
         <div>
         <TeamTitle />
-        <p className="ml-40 text-[#777777] text-[15.0385px] pb-12" id='aboutus' data-aos="fade-up"
+        <p className="lg:ml-40 text-[#777777] text-[15.0385px] pb-12" id='aboutus' data-aos="fade-up"
     data-aos-duration={1500}>With a team of highly skilled architects, engineers, and construction
      professionals, Universal Design And Construction, Ltd. brings together a wealth of expertise and
       experience to create stunning, functional, and sustainable structures. Our team possesses a deep 
