@@ -11,6 +11,7 @@ import project7 from "../assets/project7.jpg";
 import project5 from "../assets/project5.jpg";
 import project6 from "../assets/project6.jpg";
 import carousel3 from "../assets/carousel-3.jpg";
+import homepic from "../assets/homepic.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();
@@ -45,6 +46,9 @@ function Home() {
   return (
     <>
       <main className="overflow-hidden mt-36">
+        <div className="w-full px-6 lg:py-6">
+          <img className="object-cover w-full" src={homepic} alt="home" />
+        </div>
         <Description />
         <Services />
 
