@@ -17,34 +17,34 @@ const CarouselComponent = () => {
     autoplay: true,
   };
   return (
-    <div className="lg:w-1/2 w-full">
-    <Slider {...settings} className="lg:h-[70vh]">
+    <div className="w-full">
+    <Slider {...settings} className="lg:h-[80vh]">
       
       <div>
         <img
           src={carousel2}
-          className="my-8 max-h-[65vh] object-cover min-w-[10vw]"
+          className="my-8 max-h-[75vh] object-cover min-w-[100vw]"
         />
       
       </div>
       <div>
         <img
           src={carousel3}
-          className="my-8 max-h-[65vh] object-cover min-w-[10vw]"
+          className="my-8 max-h-[75vh] object-cover min-w-[100vw]"
         />
        
       </div>
       <div>
         <img
           src={carousel1}
-          className="my-8 max-h-[65vh] object-cover min-w-[10vw]"
+          className="my-8 max-h-[75vh] object-cover min-w-[100vw]"
         />
        
       </div>
       <div>
         <img
           src={carousel4}
-          className="my-8 max-h-[65vh] object-cover min-w-[10vw]"
+          className="my-8 max-h-[75vh] object-cover min-w-[100vw]"
         />
        
       </div>

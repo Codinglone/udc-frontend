@@ -9,7 +9,7 @@ const ServicesPage = () => {
   return (
     <> 
             <div  
-            className='mt-28 lg:h-[34vh] h-12'
+            className='mt-28 lg:h-[40vh] h-12'
           style={{
             backgroundImage: `url(${project7})`,
             backgroundSize: 'cover',
@@ -20,12 +20,12 @@ const ServicesPage = () => {
           
           }}
         >
-          <h1 className='lg:text-7xl text-white lg:pt-16 text-center text-2xl font-medium lg:pl-24 z-20'>Services</h1>
+          <h1 className='lg:text-7xl text-white lg:pt-20 text-center text-2xl font-medium lg:pl-24 z-20'>Services</h1>
         </div>
-      <NewServices imgDir={'left'} title={'Civil Engineering'} content={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, eligendi. Voluptatibus neque temporibus maxime, soluta nihil, ibusdam iste ipsum voluptates ut deleniti facilis! Tenetur maiores nisi possimus et facere perferendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quidem impedit, veniam nihil quisquam aliquam temporibus! Quas ratione consectetur molestias nulla asperiores perferendis reiciendis. Iste tempore dolores suscipit culpa pariatur.'}/>
-      <NewServices imgDir={'right'} title={'Land Surveying'} content={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, eligendi. Voluptatibus neque temporibus maxime, soluta nihil, ibusdam iste ipsum voluptates ut deleniti facilis! Tenetur maiores nisi possimus et facere perferendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quidem impedit, veniam nihil quisquam aliquam temporibus! Quas ratione consectetur molestias nulla asperiores perferendis reiciendis. Iste tempore dolores suscipit culpa pariatur.'}/>
-      <NewServices imgDir={'left'} title={'Architectural Design'} content={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, eligendi. Voluptatibus neque temporibus maxime, soluta nihil, ibusdam iste ipsum voluptates ut deleniti facilis! Tenetur maiores nisi possimus et facere perferendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quidem impedit, veniam nihil quisquam aliquam temporibus! Quas ratione consectetur molestias nulla asperiores perferendis reiciendis. Iste tempore dolores suscipit culpa pariatur.'}/>
-      <NewServices imgDir={'right'} title={'Cost Estimation & Quality Surveying'} content={'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, eligendi. Voluptatibus neque temporibus maxime, soluta nihil, ibusdam iste ipsum voluptates ut deleniti facilis! Tenetur maiores nisi possimus et facere perferendis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quidem impedit, veniam nihil quisquam aliquam temporibus! Quas ratione consectetur molestias nulla asperiores perferendis reiciendis. Iste tempore dolores suscipit culpa pariatur.'}/>
+      <NewServices imgDir={'left'} title={'Civil Engineering'} content={'We undertake Civil Engineering And Infrastructure projects , by Creating stable structure frames in modern Software’s by considering necessary loadings factors and design that capable of withstanding applied loads , hence we unsure smooth Construction on site , by implementing every single detail with proper construction materials.'}/>
+      <NewServices imgDir={'left'} title={'Architectural Design'} content={'Our expert team specializes in providing comprehensive planning solutions that maximize land use, promote sustainable development, and enhance quality of life we embrace innovation and out -of- box thinking to deliver unique inspiring designs.'}/>
+      <NewServices imgDir={'right'} title={'Land Surveying'} content={'Our Design team never imagine terrain they follow Geo - Data brought in office by our surveyors which help them To determine your plot boundaries and zoning and also help you get all the necessary information about your land and properties.'}/>
+      <NewServices imgDir={'right'} title={'Cost Estimation & Quality Surveying'} content={'As starting point of every project and key point for any estimate we work under client Budget and meet envision Building, by taking into consideration, skilled labor and defined material Specification by utilizing well detailed drawings.'}/>
     </>
   )
 }

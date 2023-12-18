@@ -1,29 +1,32 @@
 import SectionTitle from "./SectionTitle";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import CarouselComponent from "./Carousel";
+import homepic from '../assets/carousel-1.jpg'
 
 AOS.init();
 const Description = () => {
   return (
     <div
-      className="mx-6 flex flex-col lg:flex-row"
+      className="lg:my-10 lg:my-8 flex flex-col lg:flex-row"
       data-aos="fade-up"
       data-aos-duration={2000}
     >
   
-      <CarouselComponent />
-      <div className="lg:w-[44%] w-full lg:ml-16 lg:my-8" id="about">
+       <div className="w-1/2 px-6 lg:py-6">
+          <img className="object-cover w-full" src={homepic} alt="home" />
+        </div>
+      <div className="lg:w-[44%] w-full lg:ml-8 lg:my-10" id="about">
 
-        <SectionTitle titleText="WELCOME TO UDC!" />
-        <p className="my-5 leading-loose text-[#777777] text-justify text-[15.0385px]">
-        As a company, we are dedicated to continuous improvement, staying abreast of industry advancements,
-         and embracing innovation. We foster a collaborative and inclusive work environment that encourages 
-         teamwork, creativity, and professional growth. Universal Design And Construction, Ltd. is proud to 
-         have established a strong reputation for excellence, integrity, and customer satisfaction. With a track 
-         record of successful projects, we have earned the trust of clients who seek exceptional design, meticulous
-          construction, and a partner who values their dreams.
-
+        <SectionTitle titleText="Welcome To A World Of" /><br />
+        <SectionTitle titleText="Your Dreams" />
+        <p className="my-12 leading-loose text-[#777777] text-justify text-[18px]">
+        At Universal Design And Construction Ltd we understand , that each Client is Unique and Has
+        Distinct dreams and aspirations. we prioritize Client collaboration And Aim to create spaces
+        that truly reflect their vision. with focus on innovation and sustainability we turn Dreams into
+        Reality.
+        </p>
+        <p className="leading-loose text-[#777777] text-justify text-[18px]">
+          Enginering we lead!
         </p>
       </div>
     </div>

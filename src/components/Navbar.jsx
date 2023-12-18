@@ -25,7 +25,7 @@ const Navbar = () => {
                 alt="logo"
               />
               <i className="font-medium text-blue-700 text-sm py-12">
-                UNIVERSAL DESIGN AND CONSTRUCTION <br /> LTD
+                UNIVERSAL DESIGN AND CONSTRUCTION LTD
               </i>
             </div>
             <div className="flex gap-20 justify-between items-center lg:ml-96">
@@ -57,7 +57,7 @@ const Navbar = () => {
               <NavLink
                 to="/contacts"
                 activeClassName="text-[gold]"
-                className="font-medium text-blue-700  hover:text-[gold]"
+                className="font-large text-blue-700  hover:text-[gold]"
               >
                 CONTACT
               </NavLink>
