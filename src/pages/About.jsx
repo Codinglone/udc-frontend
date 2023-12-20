@@ -11,7 +11,7 @@ const About = () => {
     <div className='overflow-hidden'>
            <div className='grid justify-center items-center'>
         <div className="absolute z-50 w-full pt-24 text-2xl lg:pt-0 font-bold text-white lg:h-[45vh]">
-        <h1 className="lg:text-7xl text-white text-center font-medium lg:pl-24 lg:py-40 z-20">
+        <h1 className="my-14 lg:text-7xl text-white text-center font-medium lg:pl-24 lg:py-40 z-20">
           About Us
         </h1>
         </div>
@@ -35,14 +35,14 @@ prioritize your collaboration and aim to create spaces that truly reflect your v
       </div>
       </div>
       <div className='flex justify-center gap-4'>
-       <div className='lg:mx-auto lg:p-8 bg-blue-800 w-1/3 lg:h-60'id='1aboutus' data-aos="fade-up"
+       <div className='rounded-xl lg:mx-auto lg:p-8 bg-blue-800 w-1/3 lg:h-60'id='1aboutus' data-aos="fade-up"
     data-aos-duration={1500}>
       <h1 className='font-extrabold text-white text-xl mb-4'>MOTIVATION</h1>
         <p className='font-medium text-white text-[16px] mb-4'>Dedicated to creating exceptional spaces that inspire and exceed expectations. With a focus on collaboration, innovation,
            and sustainability, we turn dreams into reality, delivering outstanding residential, commercial, and hospitality projects.
            Join us on this exciting journey where luxury design meets sustainability.</p>
        </div>
-       <div className='lg:mx-auto lg:p-8 bg-yellow-300 w-1/3 lg:h-60'id='1aboutus' data-aos="fade-up"
+       <div className='my-20 rounded-xl lg:mx-auto lg:p-8 bg-yellow-300 w-1/3 lg:h-60'id='1aboutus' data-aos="fade-up"
     data-aos-duration={1500}>
       <h1 className='font-extrabold text-white text-xl mb-4'>MISSION</h1>
         <p className='font-medium text-white text-[16px] mb-4'>Our mission is to create exceptional spaces that embody our clients' dreams through
@@ -50,7 +50,7 @@ prioritize your collaboration and aim to create spaces that truly reflect your v
        and quality to deliver outstanding residential, commercial, and hospitality projects that 
        exceed expectations.</p>
        </div>
-       <div className='lg:mx-auto lg:p-8 bg-blue-800 w-1/3 lg:h-60'id='1aboutus' data-aos="fade-up"
+       <div className='my-36 rounded-xl lg:mx-auto lg:p-8 bg-blue-800 w-1/3 lg:h-60'id='1aboutus' data-aos="fade-up"
     data-aos-duration={1500}>
       <h1 className='font-extrabold text-white text-xl mb-4'>VISION</h1>
         <p className='font-medium text-white text-[16px] mb-4'> To be the leading provider of luxury design and construction services, integrating client

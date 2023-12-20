@@ -16,6 +16,7 @@ import Projects from "./pages/Projects"
 import Services from "./pages/Services"
 import TeamPage from "./pages/Team"
 import Contact from "./pages/Contact"
+import Apply from "./pages/apply"
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
       <Route path="/services" element={<Services />} />
       <Route path="/team" element={<TeamPage />} />
       <Route path="/contacts" element={<Contact />} />
+      <Route path="/apply" element={<Apply />} />
     </Routes>
     <Footer />
   </BrowserRouter>

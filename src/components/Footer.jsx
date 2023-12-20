@@ -3,23 +3,23 @@ import Logo from "../assets/logo.png";
 
 const Footer = () => {
   return (
-    <footer className="bg-blue-900 border-t mt-16 border-gray-200">
+    <footer className="bg-blue-900 border-t mt-1 border-gray-200">
       <div className="p-4 sm:p-8">
         <div className="flex flex-col sm:flex-row justify-around items-center">
           <div className="mb-4 sm:mb-0">
           <h2 className="mb-4 text-2xl font-medium text-white uppercase dark:text-white">Contact Us</h2>
             <ul className="grid gap-4 text-white dark:text-gray-400 text-md font-medium">
               <li>
-                <a href="/" className="hover:underline">Phone: +250-780-242-519</a>
+                <a href="/Contacts" className="hover:text-yellow-300">Phone: +250-780-242-519</a>
               </li>
               <li>
-                <a href="/" className="hover:underline">E-mail: universaldesignandcons@gmail.com</a>
+                <a href="/Contacts" className="hover:text-yellow-300">E-mail: universaldesignandcons@gmail.com</a>
               </li>
               <li>
-                <a href="/" className="hover:underline">Whatsapp: +250-780-242-519</a>
+                <a href="/Contacts" className="hover:text-yellow-300">Whatsapp: +250-780-242-519</a>
               </li>
               <li>
-                <a href="/" className="hover:underline">Location: 190 KK 15 Rd, Kigali</a>
+                <a href="/apply" className="hover:text-yellow-300">Career</a>
               </li>
             </ul>
           </div>
@@ -28,16 +28,16 @@ const Footer = () => {
   <h2 className="mt-3 text-2xl font-medium text-white uppercase dark:text-white">Useful Links</h2>
   <ul className="grid gap-4 mt-4 text-white dark:text-gray-400 text-md font-medium">
     <li>
-      <a href="/#" className="hover:underline">Home</a>
+      <a href="/#" className="hover:text-yellow-300">Home</a>
     </li>
     <li>
-      <a href="/about" className="hover:underline">About Us</a>
+      <a href="/about" className="hover:text-yellow-300">About Us</a>
     </li>
     <li>
-      <a href="/services" className="hover:underline">Services</a>
+      <a href="/services" className="hover:text-yellow-300">Services</a>
     </li>
     <li>
-      <a href="/projects" className="hover:underline">Projects</a>
+      <a href="/projects" className="hover:text-yellow-300">Projects</a>
     </li>
   </ul>
 </div>
@@ -47,16 +47,16 @@ const Footer = () => {
             <h2 className="mt-3 text-2xl font-medium text-white uppercase dark:text-white">Services</h2>
             <ul className="grid gap-4 mt-4 text-white dark:text-gray-400 text-md font-medium">
               <li>
-                <a href="/" className="hover:underline">Architectural & Interior Design</a>
+                <a href="/Services" className="hover:text-yellow-300">Architectural & Interior Design</a>
               </li>
               <li>
-                <a href="/" className="hover:underline">Civil Engineering</a>
+                <a href="/Services" className="hover:text-yellow-300">Civil Engineering</a>
               </li>
               <li>
-                <a href="/" className="hover:underline">Cost Estimation & Quality Surveying</a>
+                <a href="/Services" className="hover:text-yellow-300">Cost Estimation & Quality Surveying</a>
               </li>
               <li>
-                <a href="/" className="hover:underline">Land Surveying</a>
+                <a href="/Services" className="hover:text-yellow-300">Land Surveying</a>
               </li>
             </ul>
           </div>

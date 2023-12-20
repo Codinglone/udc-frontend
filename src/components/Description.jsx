@@ -23,10 +23,7 @@ const Description = () => {
         At Universal Design And Construction Ltd we understand , that each Client is Unique and Has
         Distinct dreams and aspirations. we prioritize Client collaboration And Aim to create spaces
         that truly reflect their vision. with focus on innovation and sustainability we turn Dreams into
-        Reality.
-        </p>
-        <p className="leading-loose text-[#777777] text-justify text-[18px]">
-          Enginering we lead!
+        Reality. <br />  Enginering we lead!
         </p>
       </div>
     </div>

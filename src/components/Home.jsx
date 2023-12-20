@@ -28,10 +28,7 @@ function Home() {
               Architecture Design
             </h1>
             <p className="text-justify lg:text-left text-[15.0385px]  text-[#777777] text-center lg:pr-16 px-4 lg:px-0 pt-4">
-            Our expert team specializes in providing
-comprehensive planning solutions that maximize land use, promote sustainable
-development, and enhance quality of life we embrace innovation and out -of- box
-thinking to deliver unique inspiring designs.
+            We focus on covering and meeting the needs and demands, to create living spaces, using certain tools and especially, creativity.
             </p>
           </div>
           <div>
@@ -39,11 +36,7 @@ thinking to deliver unique inspiring designs.
               Civil Engineering
             </h1>
             <p className="text-justify lg:text-left text-center text-[15.0385px]  text-[#777777] lg:pr-16 px-4 lg:px-0 pt-4">
-            We undertake Civil Engineering And Infrastructure projects , by
-Creating stable structure frames in modern Software’s by considering necessary loadings
-factors and design that capable of withstanding applied loads , hence we unsure smooth
-Construction on site , by implementing every single detail with proper construction
-materials .
+            We deal with the design, construction, and maintenance of the physical and naturally built environment
             </p>
           </div>
           <div>
@@ -51,10 +44,7 @@ materials .
               Land Surveying
             </h1>
             <p className="text-justify lg:text-left text-center text-[15.0385px]  text-[#777777] lg:pr-16 px-4 lg:px-0 pt-4">
-            Our Design team never imagine terrain they follow Geo - Data brought
-in office by our surveyors which help them To determine your plot boundaries and
-zoning and also help you get all the necessary information about your land and
-properties.
+            Establishing or reestablishing of parcels, preparing deed plans base on clients needs.
             </p>
           </div>
           <div>
@@ -62,9 +52,7 @@ properties.
               Cost Estimation
             </h1>
             <p className="text-justify lg:text-left text-center text-[15.0385px]  text-[#777777] lg:pr-16 px-4 lg:px-0 pt-4">
-            As starting point of every project and key point for any estimate
-we work under client Budget and meet envision Building, by taking into consideration,
-skilled labor and defined material Specification by utilizing well detailed drawings.
+            Forecasting the financial and other resources needed to complete a project within a defined scope.
             </p>
           </div>
         </div>

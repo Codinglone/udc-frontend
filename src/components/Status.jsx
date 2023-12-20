@@ -104,7 +104,7 @@ const Status = () => {
   return (
     <>
       <div
-        className="my-12 w-full hidden lg:flex"
+        className="my-16 w-full hidden lg:flex"
         data-aos="fade-up"
         data-aos-duration="2000"
       >
