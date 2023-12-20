@@ -1,7 +1,7 @@
-import carousel1 from "../assets/project7.jpg";
-import carousel2 from "../assets/project.jpg";
-import carousel3 from "../assets/project5.jpg";
-import carousel4 from "../assets/project3.jpg";
+import carousel1 from "../assets/carousel-1.jpg";
+import carousel2 from "../assets/carousel6.jpg";
+import carousel3 from "../assets/carousel-4.jpg";
+import carousel4 from "../assets/carousel7.jpg";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -17,34 +17,34 @@ const CarouselComponent = () => {
     autoplay: true,
   };
   return (
-    <div className="lg:w-1/2 w-full">
-    <Slider {...settings} className="lg:h-[70vh]">
+    <div className="w-full">
+    <Slider {...settings} className="lg:h-[110vh]">
       
       <div>
         <img
           src={carousel2}
-          className="my-8 max-h-[65vh] object-cover min-w-[10vw]"
+          className="my-8 max-h-[90vh] object-cover min-w-[100vw]"
         />
       
       </div>
       <div>
         <img
           src={carousel3}
-          className="my-8 max-h-[65vh] object-cover min-w-[10vw]"
+          className="my-8 max-h-[100vh] object-cover min-w-[100vw]"
         />
        
       </div>
       <div>
         <img
           src={carousel1}
-          className="my-8 max-h-[65vh] object-cover min-w-[10vw]"
+          className="my-8 max-h-[100vh] object-cover min-w-[100vw]"
         />
        
       </div>
       <div>
         <img
           src={carousel4}
-          className="my-8 max-h-[65vh] object-cover min-w-[10vw]"
+          className="my-8 max-h-[100vh] object-cover min-w-[100vw]"
         />
        
       </div>

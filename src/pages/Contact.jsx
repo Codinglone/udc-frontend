@@ -308,12 +308,12 @@ const Contact = () => {
           <div
             data-aos="fade-up"
             data-aos-duration="2000"
-            className="text-center text-white"
+            className="text-center text-white mt-24"
           >
-            <h1 className="text-4xl lg:text-6xl font-extrabold leading-tight mb-4">
+            <h1 className="text-4xl lg:text-6xl font-extrabold leading-tight">
               Contact Us
             </h1>
-            <p className="text-lg lg:text-xl">
+            <p className="text-lg my-4 lg:text-xl">
               We'd love to hear from you. Reach out to us for any inquiries or
               collaboration.
             </p>
@@ -329,7 +329,7 @@ const Contact = () => {
       >
         <div className="container mx-auto text-center">
           <h2 className="text-3xl lg:text-4xl font-extrabold text-gray-800 mb-8">
-            Our Contact Information
+            Our Contact Info
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div>
@@ -347,10 +347,8 @@ const Contact = () => {
               </p>
             </div>
             <div>
-              <h3 className="text-xl lg:text-2xl font-bold mb-4">Location</h3>
-              <p className="text-lg lg:text-xl text-gray-700">
-                190 KK 15 Rd, Kigali
-              </p>
+              <h3 className="text-xl lg:text-2xl font-bold mb-4">FOr collaboration & Applications <br />
+              Clik Here <a href="/apply" className="text-blue-700 underline hover:text-yellow-300">Career</a></h3>
             </div>
           </div>
         </div>
@@ -364,7 +362,7 @@ const Contact = () => {
       >
         <div className="container mx-auto">
           <h2 className="text-3xl lg:text-4xl font-extrabold text-gray-800 mb-8 text-center">
-            Get In Touch
+            Get In Touch ...
           </h2>
           <form
             onSubmit={(e) => e.preventDefault()}
@@ -417,7 +415,7 @@ const Contact = () => {
               ></textarea>
             </div>
             <div className="mt-8 text-center">
-              <button className="px-8 py-4 bg-blue-700 text-white font-semibold rounded-md hover:bg-[gold] focus:outline-none focus:bg-gray-600">
+              <button className="px-8 py-4 bg-gradient-to-r from-yellow-300 to-blue-500 hover:from-blue-500 hover:to-yellow-300 text-white font-semibold rounded-md hover:bg-[gold] focus:outline-none focus:bg-gray-600">
                 Submit
               </button>
             </div>

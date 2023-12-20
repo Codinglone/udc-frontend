@@ -86,7 +86,7 @@ function ServicesTab() {
             aria-label="tabs example"
             className={cx(
               "flex flex-row justify-start",
-              "border-b border-blue-300 dark:border-neutral-700"
+              " dark:border-neutral-700"
             )}
           >
             {tabs.map((tab) => (

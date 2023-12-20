@@ -104,13 +104,13 @@ const Status = () => {
   return (
     <>
       <div
-        className="my-12 w-full hidden lg:flex"
+        className="my-16 w-full hidden lg:flex"
         data-aos="fade-up"
         data-aos-duration="2000"
       >
-        <div className="w-1/2 bg-blue-900 flex justify-between px-4 py-8">
+        <div className="w-1/2 bg-blue-800 flex justify-between px-4 py-8">
           <div>
-            <CountUp end={100} duration={10}>
+            <CountUp end={6} duration={10}>
               {({ countUpRef, start }) => (
                 <VisibilitySensor
                   onChange={(isVisible) => handleVisibilityChange(isVisible)}
@@ -122,11 +122,11 @@ const Status = () => {
             </CountUp>
             <br />
             <span className="font-semibold text-lg text-yellow-300">
-              EXPERT ENGINEERS & <br /> PROJECT MANAGERS
+              Outreached <br /> Countries
             </span>
           </div>
           <div>
-            <CountUp end={180} duration={10}>
+            <CountUp end={180} duration={20}>
               {({ countUpRef, start }) => (
                 <VisibilitySensor
                   onChange={(isVisible) => handleVisibilityChange(isVisible)}
@@ -144,13 +144,13 @@ const Status = () => {
         </div>
         <div className="w-1/2 bg-yellow-300 flex justify-between px-4 py-8">
           <div>
-            <CountUp end={200} duration={10}>
+            <CountUp end={200} duration={20}>
               {({ countUpRef, start }) => (
                 <VisibilitySensor
                   onChange={(isVisible) => handleVisibilityChange(isVisible)}
                   delayedCall
                 >
-                  <span className="text-blue-900 text-6xl font-bold" ref={countUpRef} />
+                  <span className="text-blue-800 text-6xl font-bold" ref={countUpRef} />
                 </VisibilitySensor>
               )}
             </CountUp>
@@ -160,13 +160,13 @@ const Status = () => {
             </span>
           </div>
           <div>
-            <CountUp end={20} duration={5}>
+            <CountUp end={20} duration={10}>
               {({ countUpRef, start }) => (
                 <VisibilitySensor
                   onChange={(isVisible) => handleVisibilityChange(isVisible)}
                   delayedCall
                 >
-                  <span className="text-blue-900 text-6xl font-bold" ref={countUpRef} />
+                  <span className="text-blue-800 text-6xl font-bold" ref={countUpRef} />
                 </VisibilitySensor>
               )}
             </CountUp>
