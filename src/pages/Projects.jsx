@@ -1,9 +1,15 @@
 import NewProjects from "../components/NewProjects";
-import project3 from "../assets/project3.jpg";
-import project7 from "../assets/project7.jpg";
+import project3 from "../assets/project7.jpg";
+import project7 from "../assets/project5.jpg";
+import project1 from "../assets/carousel6.jpg";
+import project11 from "../assets/project1.jpg";
+import project9 from "../assets/project9.jpg";
+import project8 from "../assets/homepage.jpg";
+import project2 from "../assets/singlefloor.jpg";
 import homepage from "../assets/homepage.jpg";
 import project from "../assets/project.jpg";
 import project5 from "../assets/project5.jpg";
+import project10 from "../assets/carousel-1.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();
@@ -69,7 +75,7 @@ function Projects() {
         <div className="shadow-lg max-h-[480px]  lg:w-[30vw] w-full mt-8 overflow-hidden">
           <div>
             <img
-              src={project5}
+              src={project8}
               className="object-cover w-full h-[250px]"
               alt="#"
             />
@@ -86,7 +92,7 @@ function Projects() {
         <div className="shadow-lg max-h-[480px]  lg:w-[30vw] w-full mt-8 overflow-hidden">
           <div>
             <img
-              src={project3}
+              src={project}
               className="object-cover w-full h-[250px]"
               alt="#"
             />
@@ -101,7 +107,7 @@ function Projects() {
         <div className="shadow-lg max-h-[480px]  lg:w-[30vw] w-full mt-8 overflow-hidden">
           <div>
             <img
-              src={project7}
+              src={project2}
               className="object-cover w-full h-[250px]"
               alt="#"
             />
@@ -116,7 +122,7 @@ function Projects() {
         <div className="shadow-lg max-h-[480px]  lg:w-[30vw] w-full mt-8 overflow-hidden">
           <div>
             <img
-              src={project}
+              src={project11}
               className="object-cover w-full h-[250px]"
               alt="#"
             />
@@ -133,7 +139,7 @@ function Projects() {
         <div className="shadow-lg max-h-[480px]  lg:w-[30vw] w-full mt-8 overflow-hidden">
           <div>
             <img
-              src={project}
+              src={project1}
               className="object-cover w-full h-[250px]"
               alt="#"
             />
@@ -150,7 +156,7 @@ function Projects() {
         <div className="shadow-lg max-h-[480px]  lg:w-[30vw] w-full mt-8 overflow-hidden">
           <div>
             <img
-              src={project}
+              src={project9}
               className="object-cover w-full h-[250px]"
               alt="#"
             />
@@ -167,7 +173,7 @@ function Projects() {
         <div className="shadow-lg max-h-[480px]  lg:w-[30vw] w-full mt-8 overflow-hidden">
           <div>
             <img
-              src={project}
+              src={project10}
               className="object-cover w-full h-[250px]"
               alt="#"
             />
