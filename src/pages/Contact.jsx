@@ -347,8 +347,8 @@ const Contact = () => {
               </p>
             </div>
             <div>
-              <h3 className="text-xl lg:text-2xl font-bold mb-4">FOr collaboration & Applications <br />
-              Clik Here <a href="/apply" className="text-blue-700 underline hover:text-yellow-300">Career</a></h3>
+              <h3 className="text-xl lg:text-2xl font-bold mb-4"> Want to Apply?</h3>
+              <p className="text-lg lg:text-xl text-gray-700">Click  <a href="/apply" className="text-blue-700 underline hover:text-yellow-300">Here</a></p>
             </div>
           </div>
         </div>

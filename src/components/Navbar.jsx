@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <div>
       {/* Desktop Navigation */}
-      <nav className="hidden md:block bg-white shadow-xl md:pb-16 w-full" style={{ position: 'fixed', top: 0, zIndex: 100, backgroundColor: 'white' }}>
+      <nav className="hidden md:block bg-white shadow-2xl md:pb-16 w-full" style={{ position: 'fixed', top: 0, zIndex: 100, backgroundColor: 'white' }}>
         <div className="nav-menu p-12 flex items-center w-full overflow-hidden">
           <div className="menus flex w-full">
             <div
@@ -29,35 +29,35 @@ const Navbar = () => {
               </i> */}
             </div>
             <div className="flex gap-20 justify-between items-center lg:ml-96">
-              <NavLink to="/" exact activeClassName="text-[gold]" className="text-blue-700 hover:text-[gold] font-medium">
+              <NavLink to="/" exact activeClassName="text-[gold]" className="text-blue-700 hover:text-[gold] font-bold">
                 HOME
               </NavLink>
               <NavLink
                 to="/about"
                 id="ABOUTUS"
                 activeClassName="text-[gold]"
-                className="font-medium text-blue-700  hover:text-[gold]"
+                className="font-bold text-blue-700  hover:text-[gold]"
               >
                 ABOUT US
               </NavLink>
               <NavLink
                 to="/services"
                 activeClassName="text-[gold]"
-                className="font-medium text-blue-700  hover:text-[gold]"
+                className="font-bold text-blue-700  hover:text-[gold]"
               >
                 OUR SERVICES
               </NavLink>
               <NavLink
                 to="/projects"
                 activeClassName="text-[gold]"
-                className="font-medium text-blue-700  hover:text-[gold]"
+                className="font-bold text-blue-700  hover:text-[gold]"
               >
                 PROJECTS
               </NavLink>
               <NavLink
                 to="/contacts"
                 activeClassName="text-[gold]"
-                className="font-large text-blue-700  hover:text-[gold]"
+                className="font-bold text-blue-700  hover:text-[gold]"
               >
                 CONTACT
               </NavLink>
